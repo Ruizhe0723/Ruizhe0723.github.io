@@ -1,8 +1,32 @@
-@font-face {
-  font-family: 'HYShuFang';
-  src: url("/font/HYShuFang_55W.ttf");
-  font-weight: normal;
-  font-style: normal;
+@import url('./lxgwwenkai-light.css');
+@import url('./lxgwwenkai-regular.css');
+@import url('./lxgwwenkaimono-regular.css');
+@import url('./lxgwwenkaimono-light.css');
+@import url('./lxgwwenkai-bold.css');
+@import url('./lxgwwenkaimono-bold.css');
+
+@import url('./lxgwwenkaimonolite-regular.css');
+@import url('./lxgwwenkaimonolite-light.css');
+@import url('./lxgwwenkaimonolite-bold.css');
+@import url('./lxgwwenkailite-regular.css');
+@import url('./lxgwwenkailite-light.css');
+@import url('./lxgwwenkailite-bold.css');
+
+@import url('./lxgwwenkaiscreen.css');
+@import url('./lxgwwenkaiscreenr.css');
+
+body {
+  font-family: "LXGW WenKai", sans-serif;
+/* Lite version */
+  font-family: "LXGW WenKai Lite", sans-serif;
+/* Screen version */
+  font-family: "LXGW WenKai Screen", sans-serif;
+}
+pre,
+code {
+  font-family: "LXGW WenKai Mono", sans-serif;
+/* Lite version */
+  font-family: "LXGW WenKai Mono Lite", sans-serif;
 }
 :root {
   --width-left: 288px;
@@ -129,7 +153,7 @@ table:not([class]) tr:hover {
   background: var(--block);
 }
 *[ff=title] {
-  font-family: LXGW WenKai Lite;
+  font-family: "LXGW WenKai Lite", "Microsoft Yahei", sans-serif;
 }
 blockquote {
   display: block;
@@ -699,7 +723,7 @@ table:not([class]) {
   outline: none;
 }
 html {
-  font-family: LXGW WenKai Lite;
+  font-family: "LXGW WenKai Lite", "Microsoft Yahei", sans-serif;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -3861,7 +3885,7 @@ nav.menu a.nav-item:hover {
   padding: 0.5rem 0;
   line-height: 1;
   box-sizing: border-box;
-  font-family: LXGW WenKai Lite;
+  font-family: "LXGW WenKai Lite", "Microsoft Yahei", sans-serif;
   color: var(--text-p0);
 }
 .search-wrapper.noresult .search-icon {
