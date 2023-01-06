@@ -153,7 +153,7 @@ table:not([class]) tr:hover {
   background: var(--block);
 }
 *[ff=title] {
-  font-family: LXGW WenKai;
+  font-family: LXGW WenKai Screen;
 }
 blockquote {
   display: block;
