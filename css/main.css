@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'HYShuFang';
+  src: url("/font/HYShuFang_55W.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --width-left: 288px;
   --width-main: 720px;
@@ -81,7 +87,7 @@ a:hover {
   color: #ff5724;
 }
 .md-text p:not([class]) {
-  text-align: left;
+  text-align: justify;
 }
 hr {
   color: var(--text-meta);
@@ -123,7 +129,7 @@ table:not([class]) tr:hover {
   background: var(--block);
 }
 *[ff=title] {
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-family: HYShuFang;
 }
 blockquote {
   display: block;
@@ -693,7 +699,7 @@ table:not([class]) {
   outline: none;
 }
 html {
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-family: HYShuFang;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -3855,7 +3861,7 @@ nav.menu a.nav-item:hover {
   padding: 0.5rem 0;
   line-height: 1;
   box-sizing: border-box;
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif;
+  font-family: HYShuFang;
   color: var(--text-p0);
 }
 .search-wrapper.noresult .search-icon {
@@ -4674,7 +4680,7 @@ h1.article-title {
 }
 .md-text.content.indent >p:not([class]) {
   text-indent: calc(0.9375rem * 2);
-  text-align: left;
+  text-align: justify;
 }
 .md-text.content.indent >p:not([class]) a {
   text-indent: 0;
