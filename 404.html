@@ -292,7 +292,7 @@
       if (!path) {
         path = decodeURI(window.location.pathname);
       }
-      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@v2/dist/waline.js","css":"https://unpkg.com/@waline/client@v2/dist/waline.css","serverURL":"https://api.ruizhe.tech","commentCount":true,"pageview":true,"locale":{"placeholder":"快来参与讨论吧！\n可匿名评论（即呢称、邮箱、网址都不填）\n若填写邮箱，可在被回复时收到邮件提醒\n若不方便在此留言，可发邮件至博主邮箱 1900011042@pku.edu.cn 私聊\n"},"reaction":true,"meta":["nick","mail","link"],"emoji":["https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"]}, {
+      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@v2/dist/waline.js","css":"https://unpkg.com/@waline/client@v2/dist/waline.css","serverURL":"https://api.ruizhe.tech","commentCount":false,"pageview":true,"locale":{"placeholder":"快来参与讨论吧！\n可匿名评论（即呢称、邮箱、网址都不填）\n若填写邮箱，可在被回复时收到邮件提醒\n若不方便在此留言，可发邮件至博主邮箱 1900011042@pku.edu.cn 私聊\n"},"reaction":true,"meta":["nick","mail","link"],"emoji":["https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"]}, {
         el: '#waline_container',
         path: path,
       }));
