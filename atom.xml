@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>浮生梦拾记</title>
-  
+  <icon>https://www.gravatar.com/avatar/df6494b481c5071d4e896c5e496c3aad</icon>
   <subtitle>塞北秋风烈马，江南春雨杏花。|收拾回忆，寻求感动，留下思索。</subtitle>
   <link href="https://ruizhe.tech/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>John Doe</name>
-    
+    <email>1900011042@pku.edu.cn</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
