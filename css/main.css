@@ -4997,9 +4997,6 @@ div.swiper-slide img {
 .swiper-button-next:after {
   transform: translateX(1px);
 }
-.reveal {
-  visibility: hidden;
-}
 img[fancybox='true'] {
   cursor: zoom-in;
 }
