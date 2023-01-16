@@ -74,6 +74,15 @@
   </url>
   
   <url>
+    <loc>https://ruizhe.tech/2020-08-25-love.html</loc>
+    
+    <lastmod>2023-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ruizhe.tech/2021-07-05-summary_2021_07_05.html</loc>
     
     <lastmod>2023-01-10</lastmod>
@@ -93,15 +102,6 @@
   
   <url>
     <loc>https://ruizhe.tech/2023-01-01-summary_2023_01_01.html</loc>
-    
-    <lastmod>2023-01-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ruizhe.tech/2020-08-25-love.html</loc>
     
     <lastmod>2023-01-10</lastmod>
     
@@ -155,14 +155,7 @@
 
   
   <url>
-    <loc>https://ruizhe.tech/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2023-01-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ruizhe.tech/tags/%E6%88%90%E9%95%BF/</loc>
+    <loc>https://ruizhe.tech/tags/%E5%96%9C%E6%AC%A2/</loc>
     <lastmod>2023-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -190,7 +183,14 @@
   </url>
   
   <url>
-    <loc>https://ruizhe.tech/tags/%E5%96%9C%E6%AC%A2/</loc>
+    <loc>https://ruizhe.tech/tags/%E6%88%90%E9%95%BF/</loc>
+    <lastmod>2023-01-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ruizhe.tech/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
