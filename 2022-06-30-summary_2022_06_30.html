@@ -1,46 +1,518 @@
-.l_body {
-  display: flex;
-  margin: auto;
-  padding: 0 var(--gap-l);
-  justify-content: center;
-}
-.l_body .l_left {
-  z-index: 8;
-  width: var(--width-left);
-  flex-shrink: 0;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-.l_body .l_main {
-  flex-shrink: 1;
-  flex-grow: 1;
-  width: 320px;
-  max-width: var(--width-main);
-}
-@media screen and (max-width: $device-mobile-max) {
-  .mobile-only {
-    display: block !important;
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+  <meta name="generator" content="Hexo 6.3.0">
+  <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.18.5">
+  <meta charset="utf-8">
+  <meta name="robots" content="index,follow">
+
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://gcore.jsdelivr.net'>
+  <link rel="preconnect" href="https://gcore.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
+
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#f8f8f8">
+  
+  <title>拾记|年度总结|2021-2022学年第二学期</title>
+
+  
+    <meta name="description" content="本文是笔者对2022年1月-2022年6月的个人总结，也是对2022年7月-2023年12月的展望。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="拾记|年度总结|2021-2022学年第二学期">
+<meta property="og:url" content="https://ruizhe.tech/2022-06-30-summary_2022_06_30.html">
+<meta property="og:site_name" content="浮生梦拾记">
+<meta property="og:description" content="本文是笔者对2022年1月-2022年6月的个人总结，也是对2022年7月-2023年12月的展望。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/score.png">
+<meta property="article:published_time" content="2022-06-29T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-01-10T16:00:00.000Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="成长">
+<meta property="article:tag" content="总结">
+<meta property="article:tag" content="计划">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/score.png">
+  
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="浮生梦拾记" type="application/atom+xml">
+  
+
+  
+    
+<link rel="stylesheet" href="/css/main.css">
+
+  
+
+  
+    <link rel="shortcut icon" href="https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/ruizhe.jpeg">
+  
+
+  
+
+  
+
+
+  
+    
+      <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css">
+    
+  
+</head>
+
+<body>
+  
+
+
+
+
+  <div class='l_body' id='start'>
+    <aside class='l_left' layout='post'>
+    
+
+  
+
+<header class="header"><div class="logo-wrap"><a class="avatar" href="/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/night-sky-stars-scenery-comet-hd-wallpaper-1920x1080.jpg" onerror="javascript:this.classList.add('error');this.src='https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">浮生梦拾记</div><div class="sub normal cap">塞北秋风烈马，江南春雨杏花。</div><div class="sub hover cap" style="opacity:0">收拾回忆，寻求感动，留下思索。</div></a></div>
+
+<nav class="menu dis-select"><a class="nav-item active" href="/">主页</a><a class="nav-item" href="/wiki/">专栏</a><a class="nav-item" href="/summary/">总结</a><a class="nav-item" href="/about/">关于</a></nav>
+</header>
+
+
+<div class="widgets">
+<widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" data-filter="/" placeholder="文章搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div></div></widget>
+
+
+<widget class="widget-wrapper toc single" id="data-toc"><div class="widget-header cap dis-select"><span class="name">拾记|年度总结|2021-2022学年第二学期</span></div><div class="widget-body fs14"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%8F%E8%A8%80"><span class="toc-text">序言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%B9%E8%BF%87%E5%8E%BB%E5%8D%8A%E5%B9%B4%E7%9A%84%E4%B8%80%E7%82%B9%E7%82%B9%E5%B0%8F%E7%BB%93"><span class="toc-text">对过去半年的一点点小结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%87%A0%E4%B8%AA%E9%97%AE%E9%A2%98"><span class="toc-text">几个问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%BE%97%E4%B8%8D%E6%8F%90%E7%9A%84%E7%BB%8F%E5%8E%86"><span class="toc-text">一些不得不提的经历</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A6%BB%E5%BC%80%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6"><span class="toc-text">离开流体力学</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A2%E7%B4%A2%E7%90%86%E8%AE%BA%E7%89%A9%E7%90%86"><span class="toc-text">探索理论物理</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A2%E7%B4%A2%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6"><span class="toc-text">探索应用数学</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A7%91%E7%A0%94%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-text">科研的理解</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E5%B0%8F%E7%9A%84%E6%80%BB%E7%BB%93"><span class="toc-text">小小的总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E8%AF%BE%E7%A8%8B%E6%B5%8B%E8%AF%84"><span class="toc-text">一些课程测评</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Python%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AF%BC%E8%AE%BA"><span class="toc-text">Python程序设计与数据科学导论</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80"><span class="toc-text">机器学习基础</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E8%AE%A8%E8%AE%BA%E7%8F%AD"><span class="toc-text">应用数学讨论班</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6%EF%BC%88%E4%B8%8B%EF%BC%89"><span class="toc-text">流体力学（下）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A6%82%E7%8E%87%E8%AE%BA"><span class="toc-text">概率论</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%B9%E6%80%A7%E5%8A%9B%E5%AD%A6"><span class="toc-text">弹性力学</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BA%E4%BD%93%E5%8A%9B%E5%AD%A6%E5%AE%9E%E9%AA%8C"><span class="toc-text">固体力学实验</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%B1%E8%AF%AD%E8%AF%8D%E6%B1%87%E4%B8%8E%E8%8B%B1%E7%BE%8E%E6%96%87%E5%8C%96"><span class="toc-text">英语词汇与英美文化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A7%A6%E6%B1%89%E9%AD%8F%E6%99%8B%E5%8D%97%E5%8C%97%E6%9C%9D%E6%94%BF%E6%B2%BB%E5%8E%86%E7%A8%8B"><span class="toc-text">秦汉魏晋南北朝政治历程</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E7%9A%84%E7%AD%94%E6%A1%88"><span class="toc-text">我的答案</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E9%97%AE%EF%BC%9A%E8%BF%99%E4%B8%AA%E5%AD%A6%E6%9C%9F%E6%9C%89%E4%BB%80%E4%B9%88%E6%94%B6%E8%8E%B7"><span class="toc-text">第一问：这个学期有什么收获</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6%E6%96%B9%E5%90%91%E7%9A%84%E6%8E%A2%E7%B4%A2"><span class="toc-text">应用数学方向的探索</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AD%A6%E6%9C%AF%E5%86%99%E4%BD%9C%E5%92%8C%E5%AD%A6%E6%9C%AF%E6%8A%A5%E5%91%8A%E8%83%BD%E5%8A%9B"><span class="toc-text">学术写作和学术报告能力</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9D%A5%E8%87%AA%E7%BD%97%E7%BF%94%E8%80%81%E5%B8%88%E7%9A%84%E6%95%99%E8%AF%B2"><span class="toc-text">来自罗翔老师的教诲</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%A4%A7%E4%BD%9C%E4%B8%9A%E5%90%88%E4%BD%9C%E7%9A%84%E6%84%9F%E6%82%9F"><span class="toc-text">大作业合作的感悟</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AF%B9%E7%A7%91%E7%A0%94%E6%89%80%E9%9C%80%E8%A6%81%E7%9A%84%E8%83%BD%E5%8A%9B%E7%9A%84%E6%80%9D%E8%80%83"><span class="toc-text">对科研所需要的能力的思考</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E9%97%AE%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%BB%E5%8D%9A%EF%BC%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%BB%E5%8D%9A%E4%BC%9A%E6%89%93%E7%AE%97%E9%80%89%E6%8B%A9%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6"><span class="toc-text">第二问：为什么读博？为什么读博会打算选择应用数学</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E9%97%AE%EF%BC%9A%E7%90%86%E6%83%B3%E7%9A%84%E7%A7%91%E7%A0%94%E5%B7%A5%E4%BD%9C%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%EF%BC%9F%E4%B8%BA%E4%BA%86%E8%AF%BB%E5%8D%9A%EF%BC%8C%E4%BD%A0%E6%9C%89%E5%93%AA%E4%BA%9B%E5%87%86%E5%A4%87%EF%BC%9F"><span class="toc-text">第三问：理想的科研工作是怎样的？为了读博，你有哪些准备？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%9F%E5%BE%85"><span class="toc-text">期待</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%B4%E8%B0%A2"><span class="toc-text">致谢</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-text">后记</span></a></li></ol></div></div></widget>
+
+<widget class="widget-wrapper recent"><div class="widget-header cap theme dis-select"><span class="name">最近更新</span><a class="cap-action" id="rss" title="Subscribe" href="/atom.xml"><svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8938"><path d="M800.966 947.251c0-404.522-320.872-732.448-716.69-732.448V62.785c477.972 0 865.44 395.987 865.44 884.466h-148.75z m-162.273 0h-148.74c0-228.98-181.628-414.598-405.678-414.598v-152.01c306.205 0 554.418 253.68 554.418 566.608z m-446.24-221.12c59.748 0 108.189 49.503 108.189 110.557 0 61.063-48.44 110.563-108.188 110.563-59.747 0-108.18-49.5-108.18-110.563 0-61.054 48.433-110.556 108.18-110.556z" p-id="8939"></path></svg></a></div><div class="widget-body related-posts fs14"><a class="item title" href="/2020-08-25-love.html"><span class="title">来自某不知名的民间科学家对“喜欢”的阐述</span></a><a class="item title" href="/2022-06-30-summary_2022_06_30.html"><span class="title">拾记|年度总结|2021-2022学年第二学期</span></a><a class="item title" href="/2021-07-05-summary_2021_07_05.html"><span class="title">拾记|年度总结|2020-2021学年</span></a><a class="item title" href="/2023-01-01-summary_2023_01_01.html"><span class="title">拾记|年度总结|2022-2023学年第一学期</span></a><a class="item title" href="/2022-01-07-summary_2022_01_07.html"><span class="title">拾记|年度总结|2021-2022学年第一学期</span></a></div></widget>
+
+<widget class="widget-wrapper tagcloud"><div class="widget-header cap theme dis-select"><span class="name">标签云</span></div><div class="widget-body fs14"><a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 12px; color: #850000" class="tag -0">博客</a> <a href="/tags/%E5%96%9C%E6%AC%A2/" style="font-size: 12px; color: #850000" class="tag -0">喜欢</a> <a href="/tags/%E6%80%BB%E7%BB%93/" style="font-size: 16px; color: #d66b00" class="tag -7">总结</a> <a href="/tags/%E6%88%90%E9%95%BF/" style="font-size: 18px; color: #ffa000" class="tag -10">成长</a> <a href="/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/" style="font-size: 14px; color: #ae3500" class="tag -3">碎碎念</a> <a href="/tags/%E8%AE%A1%E5%88%92/" style="font-size: 16px; color: #d66b00" class="tag -7">计划</a></div></widget>
+
+<widget class="widget-wrapper timeline"><div class="widget-header cap theme dis-select"><span class="name">近期动态</span></div><div class="widget-body fs14"><div class="tag-plugin timeline stellar-timeline-api" api="https://api.github.com/repos/Ruizhe0723/Ruizhe0723.github.io/issues?per_page=3"></div></div></widget>
+</div>
+<footer class="footer dis-select"><div class="social-wrap"><a class="social" href="https://github.com/Ruizhe0723" target="_blank" rel="external nofollow noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/></a><a class="social" href="http://ruizhe.tech" target="_blank" rel="external nofollow noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/8411ed322ced6.svg"/></a><a class="social" href="/tricks/mail.html" rel="noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/social/a1b00e20f425d.svg"/></a><a class="social" href="/about/#comment" rel="noopener noreferrer"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/></a></div></footer>
+
+    </aside>
+    <div class='l_main'>
+      
+
+      
+
+
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/">年度总结</a></div><div id="post-meta">发布于&nbsp;<time datetime="2022-06-29T16:00:00.000Z">2022-06-30</time></div></div>
+
+<article class='md-text content post indent'>
+<h1 class="article-title"><span>拾记|年度总结|2021-2022学年第二学期</span></h1>
+<p>本文是笔者对2022年1月-2022年6月的个人总结，也是对2022年7月-2023年12月的展望。<br><span id="more"></span></p>
+<h2 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h2><p>唔～这个令人厌倦的期末季总算是结束了（本准大四老狗总算是可以进入摆烂生活了）。在上篇推送之后的这半年里，我基本上是完全按着上篇推送里给出的规划在推进。<strong>这半年里，有大量的意料之外，尤其是五月份之后到现在的一个半月，多次在崩溃的边界上来回试探；不过一切都过去之后，回头望望，其实也有很多意想不到的收获和惊喜。</strong> 我想，一篇总结性质的review应当是必要的，这也算是对上篇推送在半年后的一个回应吧！</p>
+<h2 id="对过去半年的一点点小结"><a href="#对过去半年的一点点小结" class="headerlink" title="对过去半年的一点点小结"></a>对过去半年的一点点小结</h2><p><strong>过去半年最大的体会就是——人力总有尽头。在事情太多的情况下，真的很难做到把每件事做得都还可以。</strong> 就拿我来说。这个学期一共9门课，7门专业课(Python程序设计与数据科学导论、应用数学讨论班、概率论、弹性力学、流体力学、机器学习基础、固体力学实验)。其实类似的情形在大二下的时候也经历过（那个时候8门专业课），我本以为这个学期少了一门专业课之后压力应当会有所有下降，但是后来才发现，我其实忽略了一个重要因素——大三好多专业课都会以大作业作为考核方式。完成一个期末大作业需要的时间是比准备一门考试要多得多的，而且一般还会附带一个pre和一份报告。又由于这个学期还有两门通选课和英语课以期末论文作为考核方式，这些任务全都积压在五月份和六月份，直接导致最后两个月成为了加长版的期末季。</p>
+<p>稍加统计，五月和六月这55天里，我写完了4个大作业【Python程序设计与数据科学导论、应用数学讨论班、机器学习基础、固体力学实验】，4次pre【英语词汇与英美文化、应用数学讨论班、机器学习基础、固体力学实验】，3篇读书笔记【秦汉魏晋南北朝】，2篇期末论文和3篇大作业报告【秦汉魏晋南北朝、英语词汇与英美文化、机器学习基础、Python程序设计与数据科学导论、应用数学讨论班】，2次小测【英语词汇与英美文化】，在完成这些任务期间还要进行平时各种课程任务的学习，最后还有4次期末考试【Python程序设计与数据科学导论、流体力学、概率论、弹性力学】。可以说这两个月一直处在和DDL顽强斗争之中，虽然事情太多难免会顾此失彼，但我觉得我也算是竭尽全力，问心无愧了吧。</p>
+<p>辛苦只是一方面。这半年的探寻，也让我初步找到了未来的方向。通过这个学期的三门和应用数学相关的课——Python程序设计与数据科学导论、应用数学讨论班、机器学习基础，让我对计算数学和数据科学有了广泛而又比较深入的了解。这三门课学下来之后，坚定了我从事应用数学研究工作的决心(具体的<a class="tag-plugin tag" color="yellow" href="#一些课程测评">课程测评</a>请往后看)。因此，今年申请的时候，我会申请应用数学方向。这个暑假也会做一个与之相关的暑研。</p>
+<p><strong>经历了这半年的洗礼之后，我的心态也有了不小的变化，总体来说更沉稳了、更勇敢、更宽容、也更感性了。</strong> 因为经历了太多DDL的洗礼，已经有些麻木了，任务太多没有办法全部顾及也是没有办法的事；在准备申请的过程中，也逐渐明白，好的机会与权利都是需要去争取的，多勇敢一次可能就是多一次机遇；在大作业的合作与交流中，也慢慢学会了逐渐降低对自己和队友的期望，与队友和解，也和自己和解；随着阅历的增加，更具同理心，更能设身处地地去理解别人的想法了。</p>
+<p>这半年里，受到过很多老师、助教、同学的帮助，本文后面都会一一感谢。</p>
+<h2 id="几个问题"><a href="#几个问题" class="headerlink" title="几个问题"></a>几个问题</h2><p><strong>在开始今天的故事之前，我还是想，先在review的最开始提出几个问题。而在之后的篇幅里，我将尝试着用我的这半年来亲身经历来回答它们。</strong></p>
+<div class="tag-plugin note" color="red"><div class="title"><strong>第一问</strong></div><div class="body"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 这个学期有什么收获？</p></div></div>
+<div class="tag-plugin note" color="blue"><div class="title"><strong>第二问</strong></div><div class="body"><p>为什么读博？为什么读博会打算选择应用数学？</p></div></div>
+<div class="tag-plugin note" color="yellow"><div class="title"><strong>第三问</strong></div><div class="body"><p>理想的科研工作是怎样的？现在到申请前，都有什么具体的打算？</p></div></div>
+<h2 id="一些不得不提的经历"><a href="#一些不得不提的经历" class="headerlink" title="一些不得不提的经历"></a>一些不得不提的经历</h2><h3 id="离开流体力学"><a href="#离开流体力学" class="headerlink" title="离开流体力学"></a>离开流体力学</h3><p>我本科读的是理论与应用力学专业。按照道理来说，我应该会优先选择读和本专业相关的博士。但诚如上文所述，我决定转行了。一个很自然的问题就是，为什么决定转行？好好地放着本专业的博士不读，反而绕圈子去读其他方向的博士，这一定是需要理由的。</p>
+<p>事实上，我本科学的这个专业比较偏理论，在本科低年级的时候我也像数学学院一样会学习《数学分析》、《高等代数》、《常微分方程》，在学习这些课程的时候，我为数学证明中严谨的逻辑所惊叹，也深深为数学定理背后精妙的数学思想所折服。因为本科学的是力学，一开始我也以为我会在力学这个领域深耕下去，因此我第一段科研经历找了工学院航空航天系的陈帜老师，想跟着他做一些和工程热流体有关的研究。但是，这段研究经历和大三上的学习经历改变了我的想法。<strong>在科研的过程中，我感觉到工学院的科研目的在于解决问题，这和我在之前的学习中所形成的偏好产生了矛盾：我更注重搞清楚问题背后的原理和实现过程。</strong> 同样在大三上，我去数学学院选修了《微分几何》课程，在《微分几何》内蕴几何的授课中，老师把曲面上的的测地平行切向量场和傅科摆联系了起来，并给出球面上切向量场沿某条纬线平行移动绕行一圈相对该纬线转过的角度恰恰就是傅科摆在该纬度时摆动一天后摆平面转过的角度。看到了这个例子之后，我发现我又能从一个新的角度来看待傅科摆这个老问题了，这使我激动不已。<strong>我察觉到，我对于将数学理论应用到实际生活中，来解决自己身边的问题或者自己曾遇到过的问题有着强烈的热诚。</strong></p>
+<div class="tag-plugin note" ><div class="body"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>关于大三上的学习经历，可以参考：</strong></p><div class="tag-plugin link dis-select"><a class="link-card plain" title="拾记|年度总结|2021-2022学年第一学期" href="/2022-01-07-summary_2022_01_07.html" cardlink autofill=""><div class="left"><span class="title">拾记|年度总结|2021-2022学年第一学期</span><span class="cap link fs12">https://ruizhe.tech/2022-01-07-summary_2022_01_07.html</span></div><div class="right"><div class="lazy img" data-bg="https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/wallhaven-sssskdls.jpg"></div></div></a></div></div></div>
+<p>但其实这还不足以动摇我读力学博士的决心，因为我知道博士换专业将会是一个极其繁复的过程，需要花费巨量的时间和精力。令我真正开始动摇读力学博士决心的，来自于和张天汉老师的一次谈话，在与他的交谈中，我了解到，在他眼中，流体力学在整个科研界的位置。他的话大意如下：</p>
+<p><strong>在有些领域，比如物理、数学、经济学，始终存在这样的问题，这样的问题是大难题，大家都公认，并且做出来了马上就会得到认可，并且这些领域始终都会有这样的问题存在，难题是一个接着一个的；应用数学、统计也是这样。</strong></p>
+<p>但在流体力学界，或者说在整个力学界，已经没有特别多重要的问题可做了，只有很多技术上的细节需要处理。湍流虽然号称是经典物理中的最后一个难题，但是，其实在科学上物理学家已经不那么在意湍流了，因为人类在物理学上的认知已经比湍流深入得多了，小到原子尺度，大到宇宙学。物理的高度，已经远远高于流体力学了，物理在经典力学之后还有量子力学和广义相对论，分别针对微观和宏观。所以，湍流这个问题的理论价值相比过去，在今天已经被大大降低了。<strong>虽然流体里还是有很多具体的问题可以做，但是在整个认识的高度上，和物理、数学这些还是差点意思。在流体里已经没有什么特别大的问题、大家比较公认的好问题了</strong>。</p>
+<p>张老师的这番话引起了我的深思。我想到，读博是一个非常漫长的事情，将会耗费我整整五年的时间，并且读博期间方向的选择也将会深远地影响到我未来的方向选择。如果博士阶段读了一个自己并不满意的方向，抑或是读了一个可能在未来会限制我发展道路的方向，这对我来说会是极不划算的。由此我开始思考转行的可能性。考虑到本科专业的性质和高中时期物理竞赛的经历，理论物理和应用数学成为了我的首选。</p>
+<p>因此，大三上结束的那个寒假，我就对理论物理和应用数学这两个方向进行了一些探索，和很多对应的老师进行了交流。</p>
+<p>这里还是需要再感叹一下北大老师对学生的包容和支持，很多老师真的只需要你给他们发一封邮件，他们就愿意和你沟通，真诚地向你介绍他们的研究方向，并为你提供相应的建议，完全不会觉得这是在浪费他们的时间。<strong>在和老师们交流的过程中，我发现，其实很多时候老师真的是以帮助的心态在向你指出问题，指出问题并不一定是批评，而是老师们希望你在未来能做得更好。</strong></p>
+<p>鄂维南老师在《应用数学讨论班》上最后一节课的话令我记忆犹新：<strong>“作为老师，我必须给你们指出问题，如果就这么草草地放你们过去，那是对你们的不负责任。而且你们也完全不用担心分数的问题，我开这门课也不是为了拉开区分度。”</strong> 鄂老师真的是这么做的。虽然我们最后的期末大作业被鄂老师犀利地指出了很多问题，但是从最后的得分来看，这并没有对成绩造成很多的负面影响。这点尤其令我感动的。</p>
+<h3 id="探索理论物理"><a href="#探索理论物理" class="headerlink" title="探索理论物理"></a>探索理论物理</h3><p>为了了解理论物理方向，我先搜索了相关资料。我了解到，理论物理里比较偏理论的是天体物理和弦论，比较偏应用的是凝聚态。其中，弦论太过理论了，进行弦论的研究需要长期的准备和积淀，我直接转过去的可能性不大；至于凝聚态物理，我了解到，很多人做的凝聚态物理的科研都是在做实验，烧制各种材料，有种“材料物理”的感觉，我也不是很喜欢。这样看起来只有天体物理可能会是比较适合我的了。于是，寒假里我也去找了物理学院天体物理方向的吴学兵老师。吴老师告诉我，天体物理和流体力学类似主要分为三个方向，理论、观测和模拟。现在最火的是天体模拟方向，时下流行的机器学习和人工智能也被广泛用于这一领域中。吴老师和我强调了计算机的重要性，他告诉我，现在几乎没有物理学的研究是不需要计算技术的。另外，在和吴老师的交流中，我也了解到，现代物理学也还有没能被解释的难题——现有的物理学理论无法解释暗物质的形成和暗能量是什么这些问题，现在的物理并不是能够令人满意的。</p>
+<p><strong>总的来说，吴老师对天体物理的介绍，令我感到，如果我从事天体物理的研究，很有可能做的事情和从事流体研究做的事情差不多。唯一的区别可能就在于，流体和实际接轨太多了，需要经常和工业生产打交道，从事流体研究的很大一部分人都在从事工程应用，工程中的需求，要求科研需要朝着实际问题去。</strong></p>
+<p><strong>流体的科研，需要去解决实际问题，因此实用主义的倾向会多一些；而天文那边，应用会比较少，研究天文，更多的是兴趣驱动，理想主义的成分会大一些。</strong> 不过考虑到流体的圈子应该会比天文的圈子大很多，找一个组内氛围比较宽松（有更多空余时间来做非强制性的工作）、大家都对流体有着强烈兴趣的课题组应该也不会太难。</p>
+<h3 id="探索应用数学"><a href="#探索应用数学" class="headerlink" title="探索应用数学"></a>探索应用数学</h3><p>之后，为了了解应用数学方向，我又去找了唐少强和史一蓬两位老师。两位老师都是应用数学领域出身，之后来了工学院，作为应用数学出身的老师，我觉得他们的建议对我来说应当会有很大的参考价值。<strong>唐老师告诉我，应用数学是一个非常大的领域，主要分为科学计算、数据科学、偏微分方程三个小分支。这三个小分支相互之间又比较独立。应用数学之中还存在着所谓的“鄙视链”：从偏微分方程到科学计算再到数据科学，越往下越具体，越往上越抽象。</strong> 做纯数学的人在某种程度上可以说是“鄙视”做应用数学的人的。而应用数学之下则是具体的应用学科，如力学、应用物理。<strong>沿着应用数学的“鄙视链”，越往上走，能做的人越少，可替代性越小，门槛越高；越往下走，越能赚钱，门槛越低。</strong></p>
+<p>在应用数学中，做科学计算的也有好几种不同的人：第一种人从事的是算法研究，他们可能是针对某种具体的物理问题涉及算法，也可能是设计某种通用的算法，他们会进行一些程序编写，但不会从事特别大规模的程序开发；第二种人专门从事底层开发，是专门写代码的；第三种人自己写代码比较少，是专门用代码解决问题的，想看的是物理。</p>
+<p>数据科学则是近几年刚开始火起来的。随着计算机的发展，数据越来越多。机器学习、神经网络的数据科学方法基于大数据背景解决了当下的很多问题，因此，这个方向在目前有巨大的需求。对于许多学科来说，数据科学是一种全新的方法，是有希望在未来带来巨大突破和巨大影响力的方向。唐老师告诉我，如果我喜欢计算机方向，现在钻进数据科学方向还赶得上目前的热潮，在数学那边大概可以考虑学统计专业。</p>
+<p>偏微分方程方向则是更加数学的一个分支。它原来是应用数学的主流方面，需要用到大量实变函数、泛函分析和其他的相关知识。想要从事这个方向的研究，我势必要转非常大的弯子，考虑到之前我相关的基本训练极其匮乏，所以我果断地排除了博士阶段直接转向这个方向。</p>
+<p><strong>其实，应用数学的这三个分支基本上恰恰对应了研究现实世界中物理问题的三种手段——理论、计算与数据驱动。</strong> 不过物理研究方法相比应用数学来说，其实还多了一种，那就是实验。理论就是解析求解偏微分方程；计算则是从基本方程开始利用计算机求解；数据科学是从大量数据入手，将具体的机制装在黑匣子里；实验则是一种验证以上三种方法准确性的方法。</p>
+<p>最后，唐老师还特别提醒我：<strong>应用数学对于物理来说是个工具；做应用数学的人通常的局限是不理解物理、力学问题，而这种理解要达到成为直觉的程度还是比较有挑战性的。做偏微分方程的人干什么的都有，譬如有做相对论方程的、流体力学方程、燃烧（化学反应）、环境、金融数学，等等，但是这些只是说那些方程来自于应用领域，而在应用领域本身有多大贡献，不仅是方程做的好不好、还得看对于应用问题理解的多深多到位。</strong></p>
+<p>至于史一蓬老师，他则是非常支持我申请应用数学方向，他以为应用数学是一个更加广阔的舞台，会更加适合我去做。史老师自己学过很多数学课程和物理课程，数学学院、物理学院、工学院的基础课他都学过。他建议我先好好打基础，去数学学院把数学学院的基础课都学了，并称“这些课是管一辈子的”，然后再去物理学院学广义相对论和量子场论，加深一下对物理问题的思考。<strong>他向我指出——做应用数学家，懂的往往要比基础数学家多。好好学基础，然后再往上走。</strong></p>
+<h3 id="科研的理解"><a href="#科研的理解" class="headerlink" title="科研的理解"></a>科研的理解</h3><p>寒假的时候，我还去找了谢金瀚老师，他告诉我，科研入门大概需要经历三个阶段：最开始的时候，对学科还不太了解，一般是先follow别人的文章，将结果进行复现；对相关领域有了一定的了解之后，就可以在别人文章的基础之上自己提出一些想法，做一些完善性质的工作；当在相关领域积累了足够的经验之后，就可以真正独立地提出自己的想法，独立地做科研了。在和谢老师交流的过程中，我对谢老师的心理素质印象深刻——他告诉我，他所做的科研，大部分时候都是在试错，如果有1/5的尝试能够取得不错的结果，这已经非常不错了。看起来，科研中心理调节是非常重要的：科研中巨大的不确定性，要求我们降低“尝试”成功的期望。<strong>另外，我也了解到，谢老师组里的氛围格外轻松，不同的学生负责不同的方向，没有组会，给予学生更多的自由，但会每周和学生交流进度。这种宽松的氛围是令我向往的。</strong> 谢老师还向我推荐了《统计物理》这门课，他觉得这门课是很与众不同的。</p>
+<h3 id="小小的总结"><a href="#小小的总结" class="headerlink" title="小小的总结"></a>小小的总结</h3><p>值得一提的是，在和老师们交流的过程中，我发现，虽然老师们对于很多问题的的想法和思考都千差万别，但他们都几乎无一例外地向我强调了自主思考的重要性。<strong>他们向我强调：读博要有自己的规划，不能完全都听老师的，要有自己的思考，否则就没有必要来读博士了。</strong></p>
+<p>基于以上的经历，考虑到天体物理和流体这两个方向对我来说很可能是差不多的，并且转到天体方向我可能还要花费大量的额外时间；再想到唐老师和史老师都极力支持我读应用数学的博士，于是，我决定大三下这个学期选择应用数学中的计算数学和数据科学这两个方向进行广泛且深入的探索。<strong>这些探索，将为我今年下半年的申请奠定基础。</strong></p>
+<h2 id="一些课程测评"><a href="#一些课程测评" class="headerlink" title="一些课程测评"></a>一些课程测评</h2><p>基于上面的考虑，刚刚过去的那个学期里，我一共选修了9门课程。专业必修课《流体力学（下）》、《弹性力学》、《概率论》、《固体力学实验》，英语课《英语词汇与英美文化》，通选课《秦汉魏晋南北朝政治历程》，以及我用来探索应用数学方向的三门课——《机器学习基础》、《应用数学讨论班》、《Python程序设计与数据科学导论》。在下面我将逐一对这九门课程进行测评，并在下一模块回答本文最初提出的3个问题的时候中指出它们对我的影响。</p>
+<div class="tag-plugin note" ><div class="body"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 为了表明本测评可能具有的参考价值，我将本学期课程的成绩列举如下。</p><div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/score.png" alt="课程成绩" fancybox="true"/><a class="image-download blur" style="opacity:0" target="_blank" rel="noopener" href="https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/score.png"><svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3734"><path d="M561.00682908 685.55838913a111.03077546 111.03077546 0 0 1-106.8895062 0L256.23182837 487.72885783a55.96309219 55.96309219 0 0 1 79.13181253-79.18777574L450.70357448 523.88101491V181.55477937a55.96309219 55.96309219 0 0 1 111.92618438 0v344.06109173l117.07478902-117.07478901a55.96309219 55.96309219 0 0 1 79.13181252 79.18777574zM282.81429711 797.1487951h447.70473912a55.96309219 55.96309219 0 0 1 0 111.92618438H282.81429711a55.96309219 55.96309219 0 0 1 0-111.92618438z" p-id="3735"></path></svg></a></div><div class="image-meta"><span class="image-caption center">课程成绩</span></div></div></div></div>
+<h3 id="Python程序设计与数据科学导论"><a href="#Python程序设计与数据科学导论" class="headerlink" title="Python程序设计与数据科学导论"></a>Python程序设计与数据科学导论</h3><p>作为信科专业课的传统艺能（任务量远大于对应学分该有的任务量），这门课程是本学期花费时间最多的课程，不夸张地说，整个学期四个月，我大概有一个月在学这门课。理由是：课程总共48学时，每天按照12小时计算，计4天；23次课，总共19次作业，每次完成作业+复习课程内容大概需要花费1天时间，没有作业的4次课复习算2天，共21天；课程期中大作业花­­­­­­费了我3 天时间；期末考试复习又花了我2天；总计30天。</p>
+<p>与此同时，这也是收获最多的一门课程。收获主要体现在以下几点：</p>
+<ol>
+<li><p>每次课程作业都是助教精心设计，与课程主题完全吻合，大大训练了我对课程内容的理解，也大大训练了我的编程能力。<strong>每次课程作业都会有讲评，都会有反馈，讲评ppt上会贴上代码风格比较优秀的同学的代码，一方面使我获得了学习优秀代码的机会，另一方面也让我看到最优秀的同龄人的代码能力大概处在什么位置。这在我看来，是该课程最值得推荐的地方。­­­­­</strong></p>
+</li>
+<li><p>本课程大大训练了我的资料查找能力。正如我在上篇推送中提到的，那时的我强烈感觉到外网中存在着丰富的优质学习资料，而本课程恰恰证明了我的这一想法。上课内容和作业内容大概涉及几十个Python包，为了复习课程内容、完成作业，我们必须去查找相应的Python包的官方文档或者教程。通过这门课程，我大概知道了哪些网站的资料会比较优质，应该怎么去查找所需要的资料。【顺便吐槽一下——<del>google比百度可好用太多了。</del>】<strong>另外，值得指出的是，数据科学和计算机领域相关的资料在互联网上非常丰富，只要能够找到好的学习资料，完全可以按照网上的教程进行自学，尽管想要找到好的学习资料也需要一定的资料检索能力。在众多博客之中，最令我欣赏的是那些短小但简明易懂，一下子就能直戳思想的小短文。相比之下，计算数学或者比较偏数学、偏物理的内容网上的资料则一般质量较差，很多结论都是错误的，因此，学习计算数学、比较偏数学和偏物理的内容的时候，还是建议寻找对应的专著进行阅读。</strong> 在上课的过程中，通过资料搜索，我自己也整理了一套配套的课程资料，可供以后翻阅。</p>
+</li>
+<li><p>必须指出的是，尽管胡老师上课会讲很多精妙的思想，但是胡老师的ppt确实是十分粗制滥造，大多是抄一些其他课程的资料，上课就相当于对着ppt即兴发挥。因此，学这门课程上课必须记笔记，但即便如此，也会有大量内容无法消化。由于ppt又十分粗制滥造，这就导致课后需要花费大量的时间去查找相关的教程和资料以复习相关的内容。但是值得一提的是，我这个学期还选修了另外一门比较偏重理论的相关课程——机器学习基础，在机器学习基础课程中讲述的理论知识很大程度上弥补了这门课程的不足。</p>
+</li>
+<li><p>课程覆盖的范围相当广，涉及Python基本程度设计、迭代器、生成器、类（cls指针和self指针）、文件操作、装饰器、类装饰器、网络编程、多线程、多进程、协程、类设计模式、正则表达式、tkinter库、Numpy库、Pandas库、Sicpy库、Sklearn库、图分析（networkx）、时间序列分析、图像处理（opencv）、深度学习（pytorch）、自然语言处理（nltk）等等，但是每一个子模块也具有相当的深度，都有相应的编程作业作为配套练习。<strong>我认为作为导论性质的课程，这样的课程设置是很好的，这为很多像我一样的非信科同学提供了了解信科和数据科学各个方向的机会。</strong></p>
+</li>
+<li><p>必须指出的是，这门课程的助教们设计作业极为用心。而且只要有问题，随时都可以询问他们，他们总会尽可能地予以协助。<strong>这里特别感谢李隽仁助教，他向我分享了自己在数据科学的很多心得，令我受益良多。</strong></p>
+</li>
+<li><p>最后，考虑到这门课程巨大的任务量，胡老师给分也极为慷慨，最开始大约200人选课，期中退课后应该还剩150～160人，67人选择百分制，我的位次大约在百分制中的20%，最后得分96，可见大概有20人左右（约占百分制同学的1/3）拿到了95+的分数。</p>
+</li>
+</ol>
+<p><strong>总而言之，我认为这是一门相当优秀的课程，在时间充裕的情况下推荐选修。</strong></p>
+<h3 id="机器学习基础"><a href="#机器学习基础" class="headerlink" title="机器学习基础"></a>机器学习基础</h3><p>这门课程就是机器学习的入门课程，初步地介绍了机器学习和深度学习的理论。我觉得讲课质量还算不错的是史一蓬和陈默涵两位老师。史老师上课使用板书，并且还特地为课程编写了一套同步的讲义，非常便于课后复习。陈老师自己就从事深度学习的研究，有相当的经验，他的课程中有很多深度学习的相关应用，饶有趣味。另外，深度学习部分的基本理论也较为简单，因此陈老师使用ppt教学的效果还算不错。至于强化学习和概率模型这两部分，由于使用ppt教学，本身的内容又不简单，因此上课完全是跪着听的，每次课程在课后都被迫花费大量时间进行复习。</p>
+<p>但值得肯定的是，课程作业的质量相当不错，完成课程作业确实极大程度上巩固了课程中的相关知识点。</p>
+<p>课程的期末考核是自选一个大作业。我们小组选了隐马尔可夫模型预测股票。囿于时间原因，我们小组没有做隐马尔可夫模型以外的预测股票的模型；但与此相对地，我们使用隐马尔可夫模型对预测股票这一具体问题的不同方面做了多样的探究，并且在程序实现上也进行了优化。将具体做了的内容在这里一一列举是索然无味的，我只把本次大作业我们组存在的问题列举如下，希望以后在做项目的时候能尽可能避免：</p>
+<ol>
+<li><p><strong>我们的大作业的的出发点存在问题。尽管时间原因是主要因素，但必要承认，我们大作业被隐马尔可夫模型这个模型框死，使用了隐马尔可夫模型对一个问题的不同方面进行了探究，问题的不同方面之间，是比较独立的。这样带来的后果，就是整个报告的效果，像是各个模块东拼西凑的结果，没有整理出一个总体的思路，看上去比较乱。各个模块缺乏关联，逻辑性不好。</strong></p>
+</li>
+<li><p><strong>比较好的选题方式，应该是问题导向的，应该一个好的idea作为引导，所有工作围绕着一个非常具体的问题进行。由这种问题导向思路写出来的报告，思路会更加清晰，读者会更有兴趣看。</strong></p>
+</li>
+<li><p><strong>在我们大作业的最后部分，忘记把整个报告的思路和做的内容梳理一遍了。</strong></p>
+</li>
+<li><p><strong>使用流程图来表示想法是更加直观的。这是值得学习的一种表述思想的方案。</strong></p>
+</li>
+</ol>
+<p>最后特别感谢该课程的王新明助教，他在我学习的过程中也给予了我莫大的帮助。</p>
+<h3 id="应用数学讨论班"><a href="#应用数学讨论班" class="headerlink" title="应用数学讨论班"></a>应用数学讨论班</h3><p><strong>这门课程里，每次课都是一次精彩的报告，针对一个主题，带领我们深入机器学习与科学计算的最前沿。</strong> 课程一共14次课，前2次课鄂老师带着我们概览了科学计算与机器学习的全貌，之后的所有课时都用来请各个方向的顶尖专家作报告——MD分子动力学(1)、神经网络学习PDE(2)、神经网络理论分支概览(2)、对PDE和ODE构建神经网络模型、神经网络模拟蛋白质折叠(1)、神经网络解偏微分方程(1)、神经网络建模时间序列(1)、神经网络模拟薛定谔方程(1)。每一场讲座都把我们从零基础的小白带到了应用数学科研的最前沿，让我们看到了处在科学计算和机器学习最前沿的科学工作者的状态。特别值得一提的是，鄂老师在某次课上以核酸检测的亲身经历特别告诫大家——不要随大流，令我印象深刻。</p>
+<p>另外，这门课程其实也搭建了一个很好的平台，拉近了学生和科学计算和机器学习最前沿的科学工作者的距离。学生在课后能够向这些科学工作者任意提问，虽然我因为水平不足没办法提出高质量的问题，<strong>但是可以预期，如果在机器学习和科学计算这个方向有一定积累的话，一定是能从和这些处在最前沿的科学工作者的交流收获很多的。</strong></p>
+<p>课程的所有任务只有一个大作业。大作业要求学生自选一个和课程主题相关的题目，并沿着这个题目进行一定深度探索。诚如前文所述，鄂老师开这门课的主要目的还是让学生们能学到知识，并且大致领略一下应用数学的科学研究范式。其实，也正是这个大作业，让我体验到了做“科研的感觉”，因为大作业所有的内容都是自己决定的，老师和助教们会提建议，但他们只是起到了辅助作用。<strong>通过这个大作业，大大训练了我的资料查找能力；也让我对应用数学家们做科研的方式有了一定的了解。</strong></p>
+<p>与此同时，大作业的课程展示也让我体会到了我和数学学院在这个领域的差距。与我年龄相仿的他们中的一部分人，已经在相应的领域有了相当的学术积累，已经能够做出具有一些洞察力的报告；而我，只能算得上是刚刚半只脚踏入门里的初学者。</p>
+<p><strong>在本测评的最后，需要特别感谢，鄂老师指出了我的大作业中的一个非常要命的问题——没有问题导向，是为了做研究而做研究。换言之，我们只是想着要去做一件事情，但并没有想过它一定要有用，一定要去解决某个问题。感谢鄂老师的这一提醒，让我意识到，我还远没有从“学生思维”过渡到“研究者思维”。真正的研究，应当是要解决某个实际的问题！</strong> 其实，不仅是我的这个大作业，在这个学期中，我的其他大作业中都或多或少地存在这个问题。</p>
+<h3 id="流体力学（下）"><a href="#流体力学（下）" class="headerlink" title="流体力学（下）"></a>流体力学（下）</h3><p>流体（下）仍然延续了流体（上）的高质量，流体课前2/3个学期板书教学，后来因为疫情，最后1/3个学期是在classin里使用ppt授课。但是，杨老师的ppt真的是精心制作的，在ppt上清楚地呈现了书上内容的重点，看ppt自学完全没有问题。可以想像，杨老师在备课的时候必然花费了大量的时间。</p>
+<p><strong>流体（下）是整个流体课程的精髓所在。流体力学中最重要的就是把复杂的东西化繁就简，提取关键信息得到近似的、但是精确度足够的解的过程。我还记得吴望一老师在他的流体力学中写道，所谓近似方法，就是根据问题的特点，抓住现象的主要方面，忽略其次要方面，从而使方程组和边界条件得到简化的一种方法。这种方法在力学中大量采用且行之有效的，是我们必须学会的一种基本训练。</strong></p>
+<p>最后，谨以杨老师在流体上最后的教导来结束本测评，希望流体课的精华能始终为我所铭记——希望大家通过流体课能注意到这样两个事实：<strong><wavy>即使是简单的守恒律也能造就丰富多彩的现象，即使再丰富混乱的现象总隐含有最根本的守恒规律。</wavy></strong></p>
+<h3 id="概率论"><a href="#概率论" class="headerlink" title="概率论"></a>概率论</h3><p>一门普普通通的专业课，也没什么可以太多说的，就推荐一本概率论的教材吧——李贤平老师的《概率论基础》。读过这本书之后一定就会意识到，这本书一定是李老师费尽千辛万苦认真编写出来的。</p>
+<h3 id="弹性力学"><a href="#弹性力学" class="headerlink" title="弹性力学"></a>弹性力学</h3><p>一门普普通通的专业课，因为这个学期时间全花Python上了，这门课平时就没怎么学，全靠考前突击。<strong>但这里需要特别提一下一件事——通过这门课程，我发现，我并非对理论有着强烈的兴趣。我真正感兴趣的，是理论背后精妙的思想，那种来自功力深厚的科学家的洞察力，是最令人着迷的。</strong> 如果像弹性力学课本那样，课本只是理论知识点的堆砌，我是绝对不会感兴趣的。</p>
+<p>最后就以目前弹性理论的最前沿作为结束吧：非线性弹性力学、在连续介质假设不成立情况下的弹性力学仍然还在摸索阶段(众说纷纭)。</p>
+<h3 id="固体力学实验"><a href="#固体力学实验" class="headerlink" title="固体力学实验"></a>固体力学实验</h3><p>一门认真划水一学期完全没好好学的专业课，在这里就不多做测评了。就罗列两点张珏老师令我印象最深的三个小建议吧：</p>
+<ol>
+<li><p><strong>问题来驱动，才能讲好故事。我们的很多教科书只是知识的堆砌、定理的罗列，没有“讲好故事”，没有告诉我们知识的来源与启发某个知识的灵感。这是教科书最欠缺的，是最吸引人的。如果能抓住一个大家关心的问题——将会大大提升读者的阅读兴趣。</strong></p>
+</li>
+<li><p><strong>只有讲道理，讲好道理是证明自己棒的方法。</strong></p>
+</li>
+<li><p><strong>最后一个建议来自于对我的课堂presentation的评价——最好使用最直观的例子来阐述一个问题！另外就是说话要具体，尤其是在一些重要的事情上——提到推动，请指出推动在哪里，具体的推动在哪里。不要阐述一些工作的总结。</strong></p>
+</li>
+</ol>
+<h3 id="英语词汇与英美文化"><a href="#英语词汇与英美文化" class="headerlink" title="英语词汇与英美文化"></a>英语词汇与英美文化</h3><p><strong>本课程是大学至今最糟心的课程。</strong> 不过平心而论，老师上课态度其实不错，但是因为一些不可抗力因素，3/4的时间全在上网课，只有4节课在线下。课程的两次小测也在线上。这门课最离谱的也就是小测的规则。下面列举如下：</p>
+<ol>
+<li><p>线上小测老师害怕大家作弊就缩短了测验时间，要求我们15分钟填完60个空的测试卷。但是在线下，同样的试题量情况下，教室里的测试时间是在25～30分钟。</p>
+</li>
+<li><p><strong>线上小测之后整整一个星期，在考试周里，老师才通知我，因为手机信号不好断了两次线，老师就把总成绩除以了2。</strong> 老师也告诉我可以选择补考，但是成绩*0.8，其实到这里我都还可以理解，因为毕竟我有一定问题，事先没有认真调试好设备。于是我就接受了补测的方案，在考试周里第二天还有期末presentation的情况下，强行抽出时间来再次准备小测。小测在第二天进行。</p>
+</li>
+<li><p>最离谱的情节来了。第二天补测的时候，老师才说补测在classin用手机进行，采用老师拖动小测的试题方案，自己无法控制答哪道题，想往下答题需要和老师说，而且时间缩短至13分钟，即13分钟填60个空，2页纸的试卷。众所周知地，这种记忆性的小测一般是先把会的题目先答上，老师拖动考试题目的方式让我直接失去了采用这种答题策略的可能性。而且必须指出，考试前1分钟才通知这么恶心的考试形式的让人感到生理性不适。并且，因为classin只能登陆手机和电脑一端，老师要求一边监控桌面一边放小测题，因此，为了拍到桌面，我只得扭转身体查看手机上的考试题目，并把题目答案写在纸上（大家可以想像手机端的屏幕有多么得小，在手机端能够显示的考试题目有多么有限，我只能眯着眼睛看小测上的题目，然后把答案写在答题纸上。因为考试全程我都得用眼睛盯着屏幕，无法分心看答题纸，所以最后写在答题纸上的字也惨不忍睹）。总而言之，我整个小测过程都非常不适。这还不是最绝的，最绝的是，老师在小测时的扬声器是关着的，我即便打开麦克风也无法和老师交流，只能凭借手势和让老师切换题目，但老师似乎每次都得过好久好久才能反应过来，在考试时间如此有限的情况下，这直接浪费了我大量的考试时间。最后的结果显而易见，我显然是做不完的，最后还有二十个空没填。<strong><wavy>总而言之，我以为，设计如此反人类的考试形式，并把它付诸实践之前，老师在考试前一定没好好用脑子站在学生的角度考虑过，我觉得只要稍微想一想，就一定会放弃这种奇葩的测试形式，就不至于在其他任务接踵而至的考试周，还给我带来这么恶心的测试体验。</wavy></strong></p>
+</li>
+</ol>
+<p>但不管怎样，还是感谢老师最后指出我期末论文中的问题，让我在以后写作的过程能改进：<strong>你的论文主要问题是主体讨论部分，和学科特点，学科发展很好地结合，更多地是描述总结。也缺少引用（只有来自教材的引用是不够的），理论支撑比较薄弱。</strong></p>
+<h3 id="秦汉魏晋南北朝政治历程"><a href="#秦汉魏晋南北朝政治历程" class="headerlink" title="秦汉魏晋南北朝政治历程"></a>秦汉魏晋南北朝政治历程</h3><p>首先，必须指出的是，阎步克老师自带的那种文史学者的气息确实令人很着迷，阎老师在课堂上侃侃而谈，旁征博引，展现出的温文尔雅的学者气质让人有一种如沐春风的感觉。</p>
+<p><strong>但是，最开始上这门课的时候，我并没有感到阎老师讲课讲得非常好，直到课程进行到大概中期的时候，大概对上课形式和上课内容有了一定体会之后，我才慢慢地能够对阎老师的课产生兴趣。由此我想到——其实，很多时候我对某个事情刚开始没有特别的兴趣，只是因为没有浸润到那个环境里，可能只是对它不了解。也许，一段时间之后，我就会对它产生兴趣。并且，我也发现，只有和自己比较相关的事物，我才会对它产生兴趣。还有，显然地，我会对自己擅长的东西更感兴趣。</strong></p>
+<p>课程期末考核的方式是期末论文。我论文写得不好。必须承认，期末论文我确实没花大量时间好好写。而助教给出的给低分的理由是：一是极少引用史料；二是主题有点跑偏，对政治结构的分析比较多，而关系到秦汉魏晋历史的比较少。</p>
+<p>尽管课程网页上并没有要求选题必须和秦汉魏晋直接相关，但是助教还是把它作为了论文评分的主要标准，有同学就因为这个原因而导致论文被认定跑题，最后被判总评60分甚至挂科。之前对通选课论文的吹风机给分早有耳闻，现在总算是亲眼见识到了。</p>
+<p>最后，我把我的论文中的主要问题列举如下，希望日后能避免：<strong>你的主要问题在论文和综述相互纠结，自己的观点表述不明确。</strong></p>
+<h2 id="我的答案"><a href="#我的答案" class="headerlink" title="我的答案"></a>我的答案</h2><p>结合上面叙述的这半年的经历，我们就可以来回答最开始提出的这三个问题了。</p>
+<h3 id="第一问：这个学期有什么收获"><a href="#第一问：这个学期有什么收获" class="headerlink" title="第一问：这个学期有什么收获"></a>第一问：这个学期有什么收获</h3><p>这是一个很难回答的问题。一个学期的收获是非常多，也非常杂的，很难也没有必要一一进行罗列。在此我只把这个学期我认为的，最大的一些收获列举如下：</p>
+<h4 id="应用数学方向的探索"><a href="#应用数学方向的探索" class="headerlink" title="应用数学方向的探索"></a>应用数学方向的探索</h4><p>首先，本学期最大的收获自然来自于对于应用数学方向的探索。这个学期通过三门选修课（信科的Python程序设计与数据科学导论、数学学院的应用数学讨论班以及工学院的机器学习基础），对计算数学和数据科学进行了广泛却有一定深度的了解。这种探索使我对计算数学、数据科学的基础知识以及基本的学科框架与分支有了一些了解。另外，我也了解到了从事这些领域的从业人士的科研状态。例如，应用数学讨论班的一次报告人任维洛学长，他正从事神经网络求解薛定谔方程方面的研究，他向我介绍了他所在的AI Lab的情况——“<strong>我们这边研究员研究和开发都会做，但可能不同阶段的侧重点不同，比如有时候要学习新领域看很多paper，有时候要快速验证想法就要做一些开发，跑一些实验。然后组内组外的学术交流也都很多。</strong>”</p>
+<p>与此同时，由于我这个学期同时在三个院系同时选修了数据科学相关的课程，这也让我看到了这三个不同的院系对于机器学习的态度。<strong>我想，既然我会从事的是一个非常交叉的学科，那么，我应该先尽可能地去了解来自不同学科的人是怎么做同一件事情的，这样之后才能更好地做出未来的选择。</strong> 我发现，即便在同一个研究领域中，来自不同学科的研究者，他们的视角并不相同。虽然只是一个小领域，但每一撮人终究还是只看到了它的一个侧面。拿数据科学这个领域来举例。<strong>来自于数学的研究者，可能对于具体问题的关心程度相对偏少，他们更加关注于数学工具背后的原理和思想。来自数学的研究者往往对于形而上的唯象的“物理感觉”嗤之以鼻，他们更喜欢用数学语言表达出来的精确的定理。</strong> 然而，来自于信科的研究者，他们更关注于底层实现。张玺老师曾经评价“cs是实用主义至上”，此言诚不我欺。<strong>信科人对于具体的数学原理没有特别执着的追求。但是，信科人非常注重数学人不太具有好感的那些抽象的“物理感觉”，因为这些东西能够在提升程序效率、进行一些理论的小改进这些方面起到巨大的作用。</strong> 但是由于这些所谓的“物理感觉”往往来自于个人的理解，所以如果不是亲身经历者，很难对这些“物理感觉”有所体会，很有可能会出现理解不了这些“物理感觉”的情况。工学院自然是更专注使用的。<strong>工学院的从业者对数学原理、“物理感觉”、动手实践都有一定关注，因为它们在预期程序效果、写程序、调试程序时会起到很大作用。</strong> 工学院对于数学原理的关切不如数学学院，对于动手实践的关切不如信科，<strong>工学院投入最大关切的是“物理感觉”。工学院的从业者往往是能够把这些所谓的“物理感觉”用比较严格的学术语言表达出来的。</strong></p>
+<p>有了这些观察之后，我想，通过观察不同的人怎么做的、思考的角度是什么，再加之对我自己的观察和偏好分析，我能够慢慢地找到自己在未来将会处在应用数学领域的位置。</p>
+<h4 id="学术写作和学术报告能力"><a href="#学术写作和学术报告能力" class="headerlink" title="学术写作和学术报告能力"></a>学术写作和学术报告能力</h4><p>第二，这个学期诸多的大作业报告、论文，和学术报告则让我体会到了，学术写作能力、做一个好的学术报告能力的重要性。虽然这个学期总共接近十几篇的报告已经大大训练了我的写作能力，但是，也正是这些大量的书写，还有老师助教们对我的报告提出的建议以及我自己的反思，让我意识到，我的报告水平还有很大的提升空间。另外，这个学期5次presentation的经历也令我初步感受到了，想要做好科研，不仅要有货，还要学会展示。我必须要学会做一个好的学术报告。</p>
+<div class="tag-plugin link dis-select"><a class="link-card plain" title="哈佛教授对博士生的8个忠告：做科研科研要“靠大树”还是“靠自己”？" href="https://mp.weixin.qq.com/s/AvFM5gW3ERFLEOiL0yPijg" target="_blank" rel="external nofollow noopener noreferrer" cardlink autofill="icon"><div class="left"><span class="title">哈佛教授对博士生的8个忠告：做科研科研要“靠大树”还是“靠自己”？</span><span class="cap link fs12">https://mp.weixin.qq.com/s/AvFM5gW3ERFLEOiL0yPijg</span></div><div class="right"><div class="lazy img" data-bg="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/link/8f277b4ee0ecd.svg"></div></div></a></div>
+<p>这又使我想起了大二的时候李植老师给我的箴言（李植老师是一个极有语言天赋的人，他曾翻译过很多的教材，且译文质量屡受好评）。这里截取相关片段如下，愿在未来的一年里能在这两方面有所突破：</p>
+<div class="tag-plugin note" color="yellow"><div class="body"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>关于你提到的常常感到词不达意的问题，我觉得其原因就是写作训练不足，并且从中学起就严重不足。</strong> 我在课堂上反复强调了这个普遍问题，也力图在作业中加强这方面训练，但是这一点点训练杯水车薪。<strong>学术写作的训练，应当在大学期间系统展开，从基础到专业，从报告到论文，不但写，而且改，做到局部最佳，整体规范。这样写个几十篇（包括实验报告、读书报告、课程报告、论文摘要、研究论文，等等），你的写作能力就会有明显提高，应该就不至于出现你提到的问题了。</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此外，你们这一代人从小就习惯了使用手机，而短信、微信中的语言往往很短，甚至常常使用省略语，这就让你们的思维局限在一些琐事上，而很少有大段叙事的机会。中小学的作文训练是另一种做法，其内容是感性的，偏重于漂亮辞藻才能的高分，而我们的学术语言侧重于准确性和描述性。因此，你们必须重新练习写作。我们的课程体系恰恰忽视了写作训练，这是很大的缺点。<strong>大学教育的重点，已经不能仅仅放在读课本、做习题上，要更多地放在文献调研、写阅读报告上。</strong> 我儿子今年考上了香港科技大学，这些天我看到他们的课程体系，学术写作恰好是重头戏，每个学年都有，低年级是一般的学术写作，高年级就要选修分专业的学术写作。等你工作之后，绝对不会再有做习题的任务，而写各种报告则很常见，所以你现在就要多多练习才好。</p></div></div>
+<h4 id="来自罗翔老师的教诲"><a href="#来自罗翔老师的教诲" class="headerlink" title="来自罗翔老师的教诲"></a>来自罗翔老师的教诲</h4><p>第三，在寒假的时候，我有幸在B站上发现了宝藏老师——罗翔老师。<strong>罗翔老师对自己深刻的反思和对人性深刻的洞察在我脑海中挥之不去。</strong></p>
+<p>例如，罗翔老师这么劝说我们不要艳羡他人所取得的成就，告诫取得成就者回报社会——<strong>我们登上并非我们所选择的舞台，演出并非我们所选择的剧本。你的剧本不是你选择的。你只有努力地把你的剧本给演好。虽然很痛苦，但是只要努力地演好你的剧本，在痛苦中也有精彩。</strong> 人生中绝大多数说实话，都不是你能决定的。人生95%的东西都是我们决定不了的。我们的出身、智商、一生的机遇，在你成长的过程中，有无数的力量把你推举，其实这些都不是我们自己所能决定的。这就是为什么，如果你真的取得了成就，你应该感谢什么，其实不应该感谢你自己，因为你能决定的东西很少。这就是为什么，如果你真正取得了成就，你要积极地去回报这个社会。因为给你的不一定真正属于你。</p>
+<p>又如，当别人赞叹罗翔老师现在所处的高度的时候，他如此回应——当你到达那种高处，真的有一种不配的感觉，因为你只是一个非常普通的人，你有普通的人所面临的挑战，你有普通人的恐惧，你有普通人的软弱，你有普通人的幽暗，你每天都经历着各种普通人的挣扎，只是你现在拥有着你所不配拥有的一切。我时常觉得很多东西都是借来的，很多你不配拥有的东西都是借来的，但是人呢，当借了一个东西之后，他就想长久地拥有。事实上，人的贪婪就在于，你想拥有你不配拥有的东西。<strong>命运借给你的东西，终究有一天你是要还回去的，终究有一天你需要交给下一个人。它并不是你配长期占有的东西。所以我非常的感恩，命运的这种馈赠。</strong> 虽然我有些时候还是会很焦虑的，因为你真的会是很惶恐的，你真的是不配拥有着一些，你并不配拥有这么多的掌声，你也并不配拥有这么多的点赞。</p>
+<p>并且，罗翔老师如此陈述大学教育的作用——<strong>教育就是为了让你不舒服，让你走出自己的偏见。</strong> 不要用明天会更好这种毒鸡汤来麻醉人们，我们所要做的就是努力过好今天。不断地训练我们，去接受未知的挑战。<strong>大学教育一定是让我们走出舒适区，让我们意识到，我们是活在一个洞穴之中，让你意识到，我们每个人都有固有的偏见，让我们不断地去修复自己的偏见。</strong></p>
+<p><strong>罗翔老师的很多言论，一针见血，回答了很多我之前没有想明白的问题，他所强调的“人的有限性”，和我的想法不谋而合。另外，罗翔老师身为刑法学老师，自己自然是遍历人间百态，体会过世界的万般不易，亲身经历过这世间的种种真实。但是，即便如此，他还是充满着理想主义，那种建立在真实基础之上的理想主义。</strong> 我想，我是要学习这种理想主义的，学习这种永远对理想抱有赤诚的理想主义，即便追求理想的道路崎岖不平、泥泞不堪。<strong>因为，不论是哪个时代，总有一部分人是要坚守理想的。</strong></p>
+<h4 id="大作业合作的感悟"><a href="#大作业合作的感悟" class="headerlink" title="大作业合作的感悟"></a>大作业合作的感悟</h4><p>第四，这个学期的小组合作也让我变得温和了许多。我更能够去接纳别人了，也能够接受与自己观点不同的意见了。我承认，在很多情况下，我仍然会嫉妒、仍然会骄傲，但这些情况已经比过去改善许多了。</p>
+<p>我更加深刻地感知到，真的不要太把自己当回事。人啊，真的很容易被自己的背景左右自己的观点，而且更要命的是，也很容易就因此而听不进别人的观点。对于这个问题，网上曾流传着一个关于智商和情商低的区分方案，我深以为然：</p>
+<div class="tag-plugin note" ><div class="body"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>A和B有关，但你就是看不出来，这是智商问题，</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>A和B无关，但你死活不愿接受，这是情商问题。</strong></p></div></div>
+<p>另外，我希望我以后，尽量避免去评价像价值观这样比较虚的东西，而就事论事地只评价一些实际的东西。我希望自己，在给别人负面评价的之前，先问问自己：是别人真的做得不好，还是你没认真看，认识到其中好的地方？是别人真的做得不好，还是你不愿意去接受别人做得好，抑或是你对它进行了价值观上的判断，只是他做的东西不太符合你的价值标准？</p>
+<p><strong>最后，需要特别感谢这个学期我的大作业组员们。感谢这个学期大作业的组员——刘隽宁和林闽淇，没有你们的支持与帮助，我一定渡过不了这个艰难的学期；也正是来自小组大作业的沟通和日常的交流，让我慢慢地一步步走出了社恐的心理状态。</strong></p>
+<h4 id="对科研所需要的能力的思考"><a href="#对科研所需要的能力的思考" class="headerlink" title="对科研所需要的能力的思考"></a>对科研所需要的能力的思考</h4><p>   <strong>基本能力对于科研的重要性是毋庸置疑的。</strong></p>
+<p>罗翔老师曾说：“<strong>人生中绝大多数比拼的不是高能，而是基础能力。</strong> 最基础的能力，是我们这个时代所最匮乏的。你写一个公文能不能语言通顺，能不能没有错别字，同事之间的表达，能不能有基本的尊重。这些基本的能力很多人是匮乏的。所有的高楼都是从基石建立起来的。基础的能力是不能忘的，人只有把基础打好，才能逐渐地垒高。”</p>
+<p>与此同时，我也还记得胡俊峰老师在某堂Python课上如此评价中美竞争——尽管中国研究团队的创新力目前来看仍旧与美国相差较大，但由于中国人的科研人员具有比美国的科研人员更高的基本素质，因此最终中美在大国竞争中，孰胜孰败还犹未可知。</p>
+<p>至于基本能力在科研中的重要性，不妨以一个例子来说明：在科研中，其实大家都是事后诸葛亮，很少有人能在没有被提醒的前提下关注到一个细节。最有可能的场景是一个细节被重复了几次之后才被注意到。注意到这些细节需要事后深入的思考，也需要敏锐的观察力。这些都是需要长久训练的基本能力。</p>
+<p><strong>在数据科学/计算数学中，我把基本能力分为以下几个方面：数据科学/计算数学专业知识、编程能力、计算机工具使用能力、数学能力、物理建模能力、英语能力、思考能力、学术展示能力。</strong></p>
+<p><strong>与此同时，创新能力对于科研也是极为重要的。</strong> 在我的理解中，这里的创新能力主要指提出好问题的能力。它需要有深厚的积累以及对问题本质的深入思考及洞察。</p>
+<p><strong>团队合作能力在科研中也很关键。</strong> 现如今，除了一些像纯数学或者纯物理这样非常pure的学科之外，大部分学科的科研都需要团队协作。在团队协作中可以形成优势互补，取得1+1&gt;2的效果。事实上，在学习生涯中，我发现，确实存在那种有很好的想法但是却无法把自己的想法严谨地表达出来的人。这时，如果有一个基本功底扎实的队友帮忙，很可能就能让他这个想法绽放光彩。</p>
+<p><strong>而对像我这样的初入科研的学生来说，可能最重要的也是最艰难的，是去直面科研的那种不确定性，是努力去打破对未知的恐惧。</strong> 对于这一点，我目前的解决方法是——做大于想。有时候，我们需要成为一个清醒的分析者，去规划自己的未来。但是在科研中很多东西是没办法规划的，理智很有可能会成为阻碍行动的力量。</p>
+<p><strong>最后，在科研中学会放松也是非常重要的</strong> ——累的时候，操场欢迎你，宿舍欢迎你。</p>
+<h3 id="第二问：为什么读博？为什么读博会打算选择应用数学"><a href="#第二问：为什么读博？为什么读博会打算选择应用数学" class="headerlink" title="第二问：为什么读博？为什么读博会打算选择应用数学"></a>第二问：为什么读博？为什么读博会打算选择应用数学</h3><p>为什么选择读博，这个问题一千个人有一千种答案。<strong>对我来说，读博其实意味着一种可能性，意味着未来能够在学术圈发展的可能性，也意味着能承担更高端工作的一种可能性。对我来说，完全没有错过这种可能性的必要。</strong> 尽管读博的机会成本是大量的时间，利用这些时间可能能够使得我在人生的早期就获得大量的金钱、积累足够的职场经验等等。<strong>但是这些，并不完全是我想要的，如果未经尝试就放弃了窥探和丰盈人类知识边界的机会，我想未来的我一定会为此感到懊悔。</strong> 谨以知乎热答的一句话作为第一个问题的结尾：“得到博士学位不是终点，不代表你以后能比别人成功，但博士学位能代表的是，只要你愿意，你可以做好这个世界上几乎所有的、有技术含量的事情。”<strong>虽然我并不认同“博士学位能代表的是，只要你愿意，你可以做好这个世界上几乎所有的、有技术含量的事情”，但是我相信，博士学位能帮助我在未来我想坚持的道路上驰骋得更远。</strong></p>
+<p>为什么读博会打算选择应用数学，这个问题前文其实已经给出了一些解答。这里再稍微做一下总结。我将从兴趣和应用数学本身平台的性质这两个角度来说明。</p>
+<p>先是兴趣角度。</p>
+<p>首先，如上文所述，我从《弹性力学》课程发现，我不认为数学美在严谨的推导，而认为数学美在它背后的思想方法与应用。我对繁琐的数学推导没有任何兴趣，而对深刻的思想感兴趣，我希望某一天我也能够成为某个新奇思想的创造者。<strong>应用数学这个平台，允许我对于每个具体的问题是用各种方法进行思考，进行探究，乃至创立某种神奇的理论或方法。</strong></p>
+<p>第二，《秦汉魏晋南北朝政治历程》这门课程的经历提醒我，我对发生在我身边的、和我相关的、我能看见的事物往往会有更加强烈的兴趣。举个例子，流体力学最吸引我的就是，流体的真实的流动是和我的生活相关联的，各种神奇的流动现象就在我们身边发生着。<strong>其实，应用数学领域中的很多问题都是实际生活中能遇到的问题，抑或是能够被可视化的问题，很少有问题会是那些抽象的虚无缥缈的东西。</strong></p>
+<p>第三，<strong>我个人也对数学理论比较有兴趣，比较喜欢数学那种比较严谨的叙事方式。</strong> 相比之下，我感觉我现在所处的工科里，好多东西是说不明白的，因为这些现象太复杂了，而且身处其中的人往往也没有说明白的能力，工科人的目标乃是解决问题，对于过程不求甚解也许并不太重要，这是我不太能接受的一个地方。另外，我自己觉得我数学还算不错，至少我觉得我学数学的能力不会弱于大部分数学系的人吧。</p>
+<p>其次是应用数学本身平台的性质这个角度。</p>
+<p><strong>首先，应用数学是一个交叉学科，对交叉学科人才非常友好，而这，正好和我过去的学习经历非常契合（我对于物理、数学、计算机都很感兴趣，并且都去选修过对应学院的专业课程，在相关领域有一定基础），在这里，我坚信能发挥出我的优势和专长。第二，应用数学相比力学而言是一个更大的舞台，在这里我能够接触到来自不同专业的更多的人，能开阔我的思维，见到更加广大的世界；而如果做力学的话我可能就只能和领域内的同行交流，视野有可能会变得日益狭隘。第三，应用数学领域中有很多处在时代风口的问题，能顺着时代洪流前进，为时代发展贡献一份自己的力量也是我所期望的。最后，目前虽然大致明白了自己未来将从事的方向，但其实我对于具体的细节还不甚了解。但是应用数学这个平台的广阔性，使我相信，我终究能在这片土壤里找到属于自己的一块立足之地，然后热诚地为之奋斗。</strong></p>
+<p>最后还要说一句，尽管在这个问题中，我看似已经做出了选择。但是，必须指出，很显然到目前，这种确信还没有到达信念的程度。我很希望，在未来，我也能像马翔、杨延涛等老师那样，坚持自己喜欢做的事，把爱好做成事业。</p>
+<h3 id="第三问：理想的科研工作是怎样的？为了读博，你有哪些准备？"><a href="#第三问：理想的科研工作是怎样的？为了读博，你有哪些准备？" class="headerlink" title="第三问：理想的科研工作是怎样的？为了读博，你有哪些准备？"></a>第三问：理想的科研工作是怎样的？为了读博，你有哪些准备？</h3><p>对于“理想的科研工作是怎样的？”这个问题，我的回答主要从以下两个角度进行考虑。首先，这个科研工作会不会令我感到不舒服？其次，这个科研工作里有百分之多少的事情是我喜欢做的？整个科研工作能否给我带来快乐？</p>
+<p>对于第一个角度，我以为，决定科研做的舒不舒服决定因素是，选择的组有没有特别对我来说感觉雷人的地方。我需要考虑到价值观和工作节奏是否相对匹配的问题，因为这些东西，会真实地影响到我工作的心情。<strong>我个人会比较倾向于比较开放，氛围比较宽松，工作节奏相对较慢的组。</strong></p>
+<p>至于第二个角度，<strong>我希望在科研中，有30%以上的工作会是我喜欢做的，60%以上的工作会是我不排斥做的，少于5%的工作是我讨厌做的（因为随着年龄的增长，我发现我已经越来越排斥我讨厌做的事情了）。</strong> 我希望我所从事的科研不要有太多的掣肘因素，以避免到最后为了完成任务而被迫做大量我不喜欢的做事情。也许举一个例子就能体会地更加真切了——要做一个成熟的工业软件的周期是非常长的，但是如果国家投资的话，国家可能就会对你提出时间限制，比如要求两年三年内就把这工业软件做出来，但这其实根本是不可能的。这样，开发团队为了完成任务，最后的工作就沦落为从国外开源软件上去抄代码，稍微改一改，换个包装形成自己的软件。如果我所从事的科研工作最后沦落为“抄袭”的话，那我不能不认为这是一种悲哀。</p>
+<p>另外，从上文也可以看出，我显然是想从事基础研究的。<strong><wavy>但也许不会是那些纯理论的基础研究，而是那些针对具体问题的偏应用的基础研究。</wavy></strong></p>
+<p>至于“为了读博，你有哪些准备？”。其实这个问题需要被拆分为：</p>
+<div class="tag-plugin note" color="red"><div class="title"><strong>为了拿到博士的录取通知书，你做了哪些准备？</strong></div><div class="body"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 对于这个问题，涉及个人安排，并且其实我也还没安排好，所以不予回答，但是欢迎私戳交流。</p></div></div>
+<div class="tag-plugin note" color="green"><div class="title"><strong>为了未来的博士生涯，你做了哪些准备？</strong></div><div class="body"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 对于这个问题，我引用心理学家Ericsson的研究发现做一个简要的回答。心理学家Ericsson发现：“决定伟大水平和一般水平的关键因素，既不是天赋，也不是经验，而是‘刻意练习’的程度。刻意练习是指为了提高绩效而被刻意设计出来的练习，它要求一个人离开自己的熟练和舒适区域，不断地依据方法去练习或提高。比如足球爱好者只不过是享受踢球的过程，普通的足球运动员只不过是例行惯事地训练和参加比赛，而顶尖的足球运动员却不断地发现现有能力的不足，并且不断以自己不舒服的方式挑战并练习高难度的动作。”<strong>我以为，科研的能力也往往是通过重复的训练训练而来的。</strong>因此，也许现在就有必要开始训练我以为科研需要的种种能力了。不过，如何训练，如何能比较有效率地训练，自然也是一个值得探讨的问题。</p></div></div>
+<h2 id="期待"><a href="#期待" class="headerlink" title="期待"></a>期待</h2><p>下半年就要开始申请了，相信这段申请季又会是一段有趣的经历，希望一切顺利吧。七月份BeBeyond会组织一个workshop，也是我期待已久的。</p>
+<p>另一方面，下学期跨院系选课还将继续。<strong>我希望我还能像以前那样，努力去接近乃至跨越自己的边界。</strong> 对我来说，我希望在我现在这个人生阶段，始终都能用新的东西来激活自己，尽可能看到这个世界更辽阔的地方。初步估计下学期我将选修六门课程（也可能会有些调整）：<strong>计算机系统导论(ics)、偏微分方程、抽象代数、实变函数、流体力学实验、太极拳。欢迎小伙伴们一起约课～</strong></p>
+<p><strong>在未来的一年里，我希望我还能像过去的这三年一样，继续扎实地学习专业知识</strong>，多听听有相当研究经历的教授对其所研究学科的理解，在我可能感兴趣的领域之间继续探索，为未来持续性地积累继续前行的力量。</p>
+<p><strong>在未来的一年里，我希望着重培养自己问问题的能力。</strong> 学会深度思考，学会有逻辑地思考，用尽可能少的先验知识就能猜出可能的结论。</p>
+<p><strong>在未来的一年里，我希望能够提升写书面报告和做现场报告的能力，提升表达能力，这些对于科研来说相当重要。</strong></p>
+<p><strong>在未来的一年里，我也希望我能够更多地意识到自己的偏见，更加深切地意识到自己的局限。</strong> 人生真的很复杂，世界也真的很复杂，这些甚至都不是能够简单的用文字就能表达完全的东西，我希望我能够多一丝理解，少一些判断；多一丝宽容，少一些戒备。</p>
+<p><strong>在未来的一年里，我还希望我能更勇敢一些。敢于去质疑，敢于去做自己想做的事，敢于追求自己热爱的事情，敢于去尝试，也敢于为之承担后果。</strong></p>
+<p><strong>最后，最重要地，在未来的一年里，我希望自己能继续按照自己的节奏前行，坚定自己的选择，做自己觉得对的事。</strong> 与此同时也要明白，有些时候必须给自己做减法，有些风景终究不属于我。</p>
+<h2 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h2><p>这半年的经历，又一次让我感受到了，<strong>北大，作为全国的最高学府，对学生的包容和人文关怀。万柳、毕业典礼……每一次，北大都在尽己所能地为同学们解决问题。</strong></p>
+<p><strong>与此同时，我同样也能体会到，身边的很多老师和同学们都是真切地想帮助我们。</strong></p>
+<p>在这里，我想特别感谢我的导师陈帜老师对我转行的支持、理力18级谈任飞学长对我关于出国事宜的指导，我的舍友和周遭的来自同专业的朋友们的理解与支持。</p>
+<p>其他的老师、助教和同学在前文中已经感谢，这里也就不再重复。</p>
+<p><strong>最后，还想特别感谢BeBeyond的Linda老师。她同样非常支持我的跨专业申请，她非常尊重我的选择，并为此提出了宝贵的意见。</strong> 与此同时，她也在文书、选校和如何和老师沟通方面给予了我莫大的帮助。另外，大三是一个特别容易焦虑的阶段，在大三这一学年里，我有多次陷入焦虑之中（大部分是因为留学机构的铺天盖地但没半点用的宣传），特别感谢Linda老师在最关键的时候，能够给予我安慰。</p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>写到这里，这篇总结也算基本写完了。但还想多说几句。</p>
+<p>还记得之前和学长聊天的时候，我曾向学长问起一个问题，那就是，为什么我觉得我现在变得越来越麻木了，越来越没有情感了？那个时候大约是五月中旬，我正为学期中的各种大作业、报告、论文、pre而焦头烂额。学长并没有告诉我为什么，他只是告诉我：大家都这样。</p>
+<p>但是写到这里的时候，我好像突然明白了，好像突然明白为什么了。麻木是因为我们的心已经死掉了。只有死掉的东西才会麻木。为什么心会死掉？心死为忙，因为在忙乱中我们忘记了我们还活着，在忙乱中我们的心已经死去了。而当我们的心死去了，我们一定随波逐流。不过，值得庆幸的是，我考完期末考试几天以后，边写总结边追剧、边打游戏这样几天以后，我居然发现，我已经摆脱了这种状态。原来，我并不会一直都处于“麻木”状态。而且，回望学期中那段“麻木”的时光，我似乎也不是毫无所得。</p>
+<p>在现在这个节骨眼上，回看半年前的自己与半年前的期待，虽说距离真正的目标还依旧遥远，但总算还是往前迈进了一大步。</p>
+<p>在这半年里，我一直追随着我的兴趣在做选择。我知道很多选择在短期就能获得很好的收益，但在长期其实是可有可无的；但也有一些选择，在短期甚至可能会有负面影响，但从长期的角度来看，却能为未来的发展注入源源不断的力量。<strong>我知道，每个人需要克服的坎是不一样的，生长节奏也是不一样的，千万不要去追求所谓的“效率”，而不妨看看一些更为本质、底层的东西——我做事情的时候是不是不急不躁心情愉悦，是不是真正从一些练习里面得到了知识或者提升。</strong></p>
+<p>这半年里我显然是做出了很多的选择的。选择在最后一个看绩点的学期在选修24个学分，7门专业课的前提下还冒着风险去数院和信科选课；选择在这个学期两次退课机会都不退课；选择没有听取学长的建议在学期内考完托福，暑假找一个国外的暑研；选择应用数学作为未来的博士方向。尽管在目前看来，这些选择，有些在目前给我带来了正面的影响，也有些在目前给我带来了负面的影响，但是，可以肯定的是，这些决定都来自于我真实的期望，至少我现在相信未来的我，不会后悔做出这些决定。</p>
+<p>其实，回望这三年的本科生涯，好像也就是在教会我怎么做选择。我本科学的是理想，我对流体力学和弹性力学中的近似方法还记忆犹新。所谓近似方法，就是根据问题的特点，抓住现象的主要方面，忽略其次要方面，从而使方程组和边界条件得到简化的一种方法。所以，或许不仅仅是流体、刚体、弹性体，人生也是可以建模的。剥离主要因素，对人生做减法，可能也能算是本科专业学习中的一种收获吧。</p>
+<p>但是，在这里，特别要指出一点，那就是，我认为，<strong>个人的能力和对未来的规划是两个完全不同的东西</strong>，二者并不一定是正相关的。但是，我相信，及早地对未来有一个好的规划能让你少走很多弯路，从整个人生的尺度来看，可能会具有更高的效率。</p>
+<p><strong>最后，我想说——我们都行走在这路上，我们都在探索未来前进的方向，我们都会失败、都会遇到挫折，都会有不如意。但我们还是需要坚持，尽管可能手上的剧本不那么尽如人意，但只要努力去演，平凡中也能有精彩。</strong> 谨以罗翔老师的话，作为本文的结尾吧：</p>
+<div class="tag-plugin note" color="red"><div class="body"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 人类选择有不完美性、不充分性。我们必须接受这种不完美。你做出的任何选择必然是不完美、不充分的。这种不充分性的存在，让我们不可能获得一种完美理性的选择。我们要接受我们的有限性。所以选择了就不要后悔，虽然你一定会后悔。因为任何选择都会遭遇挫折，当你遭遇挫折的时候，你就会想，是不是当初另外一个选择会更好。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>人生最重要的，不是一种知识，而是一种智慧，我们这一生最大的智慧，就是如何在一个不确定的世界中，寻找到一种相对的确定性，人类的智慧是需要花一生去追逐的。</strong></p></div></div>
+
+<div class="article-footer reveal fs14"><section id="references"><div class="header"><span>参考资料</span></div><div class="body"><ul><li class="post-title"><a href="/2022-01-07-summary_2022_01_07.html" rel="noopener noreferrer">拾记|年度总结|2021-2022学年第一学期</a></li><li class="post-title"><a href="/2021-07-05-summary_2021_07_05.html" rel="noopener noreferrer">拾记|年度总结|2020-2021学年</a></li></ul></div></section><section id="license"><div class="header"><span>许可协议</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
+</div></section><section id="share"><div class="header"><span>分享文章</span></div><div class="body"><div class="link"><input class="copy-area" readonly="true" id="copy-link" value="https://ruizhe.tech/2022-06-30-summary_2022_06_30.html" /></div><div class="social-wrap dis-select"><a class="social share-item wechat" onclick="util.toggle(&quot;qrcode-wechat&quot)"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/b32ef3da1162a.svg"/></a><a class="social share-item weibo" target="_blank" rel="external nofollow noopener noreferrer" href="https://service.weibo.com/share/share.php?url=https://ruizhe.tech/2022-06-30-summary_2022_06_30.html&title=拾记|年度总结|2021-2022学年第二学期&pics=https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/wallhaven-pkw6y3.jpg&summary=本文是笔者对2022年1月-2022年6月的个人总结，也是对2022年7月-2023年12月的展望。"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/80c07e4dbb303.svg"/></a><a class="social share-item email" href="mailto:?subject=拾记|年度总结|2021-2022学年第二学期 - 浮生梦拾记&amp;body=https://ruizhe.tech/2022-06-30-summary_2022_06_30.html"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/a1b00e20f425d.svg"/></a><a class="social share-item link" onclick="util.copy(&quot;copy-link&quot;, &quot;复制成功&quot;)"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.4/social/8411ed322ced6.svg"/></a></div><div class="qrcode" id="qrcode-wechat" style="visibility:hidden;height:0"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=https://ruizhe.tech/2022-06-30-summary_2022_06_30.html"/></div></div></section></div>
+
+</article>
+
+<div class="related-wrap reveal" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">较新文章</div><a href="/2023-01-01-summary_2023_01_01.html">拾记|年度总结|2022-2023学年第一学期</a></div><div class="item" id="next"><div class="note">较早文章</div><a href="/2022-01-07-summary_2022_01_07.html">拾记|年度总结|2021-2022学年第一学期</a></div></section></div>
+
+
+<div class="related-wrap reveal" id="related-posts">
+    <section class='header'>
+      <div class='title cap theme'>您可能感兴趣的文章</div>
+    </section>
+    <section class='body'>
+    <div class="related-posts"><a class="item" href="/2021-07-05-summary_2021_07_05.html" title="拾记|年度总结|2020-2021学年"><span class="title">拾记|年度总结|2020-2021学年</span><span class="excerpt">本文是笔者对2020年7月-2021年6月的个人总结，也是对2021年7月-2021年12月的展望。</span></a><a class="item" href="/2023-01-01-summary_2023_01_01.html" title="拾记|年度总结|2022-2023学年第一学期"><span class="title">拾记|年度总结|2022-2023学年第一学期</span><span class="excerpt">本文是笔者对2022年7月-2022年12月的个人总结，也是对2023年1月-2023年6月的展望。</span></a><a class="item" href="/2022-01-07-summary_2022_01_07.html" title="拾记|年度总结|2021-2022学年第一学期"><span class="title">拾记|年度总结|2021-2022学年第一学期</span><span class="excerpt">本文是笔者对2021年7月-2021年12月的个人总结，也是对2022年1月-2022年6月的展望。</span></a><a class="item" href="/2023-01-08-hello-world.html" title="你好，世界！"><span class="title">你好，世界！</span><span class="excerpt">本文用于记录博客的成长史。</span></a></div></section></div>
+
+
+
+  <div class='related-wrap md-text reveal' id="comments">
+    <section class='header cmt-title cap theme'>
+      <p>来过，就留下您的脚印吧～</p>
+
+    </section>
+    <section class='body cmt-body waline'>
+      
+
+<div id="waline_container" class="waline_thread" comment_id="年度总结"><svg class="loading" style="vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg></div>
+
+    </section>
+  </div>
+
+
+
+      
+<footer class="page-footer reveal fs12"><hr><div class="sitemap"><div class="sitemap-group"><span class="fs14">博客</span><a href="/">近期</a><a href="/categories/">分类</a><a href="/tags/">标签</a><a href="/archives/">归档</a></div><div class="sitemap-group"><span class="fs14">专栏</span><a href="/summary/">拾记|年度总结</a><a href="/wiki/method/">面向科研的学习方法</a></div><div class="sitemap-group"><span class="fs14">链接</span><a href="/friends/">朋友圈动态</a><a href="/links/">常用链接</a></div><div class="sitemap-group"><span class="fs14">更多</span><a href="/">关于本站</a><a href="/about/">留言板</a><a target="_blank" rel="noopener" href="https://github.com/Ruizhe0723">GitHub</a></div></div><div class="text"><p>There is only one true heroism in the world: to see the world as it is, and to love it.<br>世界上只有一种真正的英雄主义，那就是在认清生活的真相后依然热爱生活。</p>
+</div></footer>
+
+      <div class='float-panel mobile-only blur' style='display:none'>
+  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
+    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
+  </button>
+</div>
+
+    </div>
+  </div>
+  <div class='scripts'>
+    <script type="text/javascript">
+  const stellar = {
+    // 懒加载 css https://github.com/filamentgroup/loadCSS
+    loadCSS: (href, before, media, attributes) => {
+      var doc = window.document;
+      var ss = doc.createElement("link");
+      var ref;
+      if (before) {
+        ref = before;
+      } else {
+        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+        ref = refs[refs.length - 1];
+      }
+      var sheets = doc.styleSheets;
+      if (attributes) {
+        for (var attributeName in attributes) {
+          if (attributes.hasOwnProperty(attributeName)) {
+            ss.setAttribute(attributeName, attributes[attributeName]);
+          }
+        }
+      }
+      ss.rel = "stylesheet";
+      ss.href = href;
+      ss.media = "only x";
+      function ready(cb) {
+        if (doc.body) {
+          return cb();
+        }
+        setTimeout(function () {
+          ready(cb);
+        });
+      }
+      ready(function () {
+        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+      });
+      var onloadcssdefined = function (cb) {
+        var resolvedHref = ss.href;
+        var i = sheets.length;
+        while (i--) {
+          if (sheets[i].href === resolvedHref) {
+            return cb();
+          }
+        }
+        setTimeout(function () {
+          onloadcssdefined(cb);
+        });
+      };
+      function loadCB() {
+        if (ss.addEventListener) {
+          ss.removeEventListener("load", loadCB);
+        }
+        ss.media = media || "all";
+      }
+      if (ss.addEventListener) {
+        ss.addEventListener("load", loadCB);
+      }
+      ss.onloadcssdefined = onloadcssdefined;
+      onloadcssdefined(loadCB);
+      return ss;
+    },
+
+    // 从 butterfly 和 volantis 获得灵感
+    loadScript: (src, opt) => new Promise((resolve, reject) => {
+      var script = document.createElement('script');
+      script.src = src;
+      if (opt) {
+        for (let key of Object.keys(opt)) {
+          script[key] = opt[key]
+        }
+      } else {
+        // 默认异步，如果需要同步，第二个参数传入 {} 即可
+        script.async = true
+      }
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    }),
+
+    // https://github.com/jerryc127/hexo-theme-butterfly
+    jQuery: (fn) => {
+      if (typeof jQuery === 'undefined') {
+        stellar.loadScript(stellar.plugins.jQuery).then(fn)
+      } else {
+        fn()
+      }
+    }
+  };
+  stellar.version = '1.18.5';
+  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.18.5';
+  stellar.config = {
+    date_suffix: {
+      just: '刚刚',
+      min: '分钟前',
+      hour: '小时前',
+      day: '天前',
+      month: '个月前',
+    },
+  };
+
+  // required plugins (only load if needs)
+  stellar.plugins = {
+    jQuery: 'https://gcore.jsdelivr.net/npm/jquery@3.6.2/dist/jquery.min.js'
+  };
+
+  if ('local_search') {
+    stellar.search = {};
+    stellar.search.service = 'local_search';
+    if (stellar.search.service == 'local_search') {
+      let service_obj = Object.assign({}, {"field":"all","path":"/search.json","content":true,"sort":"-date"});
+      stellar.search[stellar.search.service] = service_obj;
+    }
   }
-  .l_body {
-    padding: 0;
+
+  // stellar js
+  stellar.plugins.stellar = Object.assign({"sites":"/js/plugins/sites.js","friends":"/js/plugins/friends.js","ghinfo":"/js/plugins/ghinfo.js","timeline":"/js/plugins/timeline.js","linkcard":"/js/plugins/linkcard.js","fcircle":"/js/plugins/fcircle.js","weibo":"/js/plugins/weibo.js"});
+
+  stellar.plugins.marked = Object.assign("https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js");
+  // optional plugins
+  if ('true' == 'true') {
+    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://gcore.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js","transition":"fade"});
   }
-  .l_body .l_left {
-    position: fixed;
-    transform: translateX(-320px);
-    margin: 0;
-    left: 0;
-    background: var(--site-bg);
-    box-shadow: $boxshadow-card-float;
-    z-index: 9;
+  if ('true' == 'true') {
+    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper@8.4.5/swiper-bundle.min.css","js":"https://unpkg.com/swiper@8.4.5/swiper-bundle.min.js"});
   }
-  .l_body .l_main {
-    max-width: 100%;
+  if ('false' == 'true') {
+    stellar.plugins.scrollreveal = Object.assign({"enable":false,"js":"https://gcore.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"4px","duration":400,"interval":100,"scale":0.1});
   }
-  .l_body.mobile .l_left {
-    transition: transform 0.3s ease-out;
+  if ('true' == 'true') {
+    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://gcore.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
   }
-  .l_body.mobile.sidebar .l_left {
-    transform: translateX(0px);
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://gcore.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://gcore.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
-}
+  if ('false' == 'true') {
+    stellar.plugins.heti = Object.assign({"enable":false,"css":"https://unpkg.com/heti@0.9.2/umd/heti.min.css","js":"https://unpkg.com/heti@0.9.2/umd/heti-addon.min.js"});
+  }
+</script>
+
+<!-- required -->
+
+  
+<script src="/js/main.js" async></script>
+
+
+
+<!-- optional -->
+
+  <script>
+  function load_comment(){
+    if(!document.getElementById("waline_container"))return;
+    stellar.loadCSS('https://unpkg.com/@waline/client@v2/dist/waline.css');
+    stellar.loadScript('https://unpkg.com/@waline/client@v2/dist/waline.js', {defer:true}).then(function () {
+      const el = document.getElementById("waline_container");
+      var path = el.getAttribute('comment_id');
+      if (!path) {
+        path = decodeURI(window.location.pathname);
+      }
+      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@v2/dist/waline.js","css":"https://unpkg.com/@waline/client@v2/dist/waline.css","serverURL":"https://api.ruizhe.tech","commentCount":true,"pageview":false,"locale":{"placeholder":"快来参与讨论吧！\n可匿名评论（即呢称、邮箱、网址都不填）\n若填写邮箱，可在被回复时收到邮件提醒\n若不方便在此留言，可发邮件至博主邮箱 1900011042@pku.edu.cn 私聊\n"},"reaction":true,"emoji":["https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"],"copyright":false}, {
+        el: '#waline_container',
+        path: path,
+      }));
+    });
+  }
+  window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+    load_comment();
+  });
+
+</script>
+
+
+
+
+<!-- inject -->
+
+
+  </div>
+<!--动态线条背景-->
+<script type="text/javascript"
+  color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+</body>
+</html>
+

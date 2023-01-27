@@ -1,46 +1,349 @@
-.l_body {
-  display: flex;
-  margin: auto;
-  padding: 0 var(--gap-l);
-  justify-content: center;
-}
-.l_body .l_left {
-  z-index: 8;
-  width: var(--width-left);
-  flex-shrink: 0;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-.l_body .l_main {
-  flex-shrink: 1;
-  flex-grow: 1;
-  width: 320px;
-  max-width: var(--width-main);
-}
-@media screen and (max-width: $device-mobile-max) {
-  .mobile-only {
-    display: block !important;
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+  <meta name="generator" content="Hexo 6.3.0">
+  <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.18.5">
+  <meta charset="utf-8">
+  
+
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://gcore.jsdelivr.net'>
+  <link rel="preconnect" href="https://gcore.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
+
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="theme-color" content="#f8f8f8">
+  
+  <title>思考，快与慢-系统1，系统2</title>
+
+  
+    <meta name="description" content="联想的定义当你受到刺激的时候，你的大脑会产生一系列的连贯反应。这些复杂的反应快速地呈现在你的脑海中，而且都是自主发生的，无须费力。你左右不了它，也不能让它停下来。这是系统1的一个运行过程。你受到这些刺激后出现的一切反应都是循着一个名为“联想激活”的过程发生的：事物在你的大脑中唤起的想法激发出许多其他的想法，而且这些联想的行为在你的大脑中迅速扩展开来。 能引发记忆的词也会引发情感，引发面部表情变化和">
+<meta property="og:type" content="website">
+<meta property="og:title" content="联想的神奇力量">
+<meta property="og:url" content="https://ruizhe.tech/wiki/book_thinking/%E7%B3%BB%E7%BB%9F1%EF%BC%8C%E7%B3%BB%E7%BB%9F2/%E8%81%94%E6%83%B3%E7%9A%84%E7%A5%9E%E5%A5%87%E5%8A%9B%E9%87%8F/index.html">
+<meta property="og:site_name" content="浮生梦拾记">
+<meta property="og:description" content="联想的定义当你受到刺激的时候，你的大脑会产生一系列的连贯反应。这些复杂的反应快速地呈现在你的脑海中，而且都是自主发生的，无须费力。你左右不了它，也不能让它停下来。这是系统1的一个运行过程。你受到这些刺激后出现的一切反应都是循着一个名为“联想激活”的过程发生的：事物在你的大脑中唤起的想法激发出许多其他的想法，而且这些联想的行为在你的大脑中迅速扩展开来。 能引发记忆的词也会引发情感，引发面部表情变化和">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-01-24T12:56:54.303Z">
+<meta property="article:modified_time" content="2023-01-24T12:56:54.303Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="浮生梦拾记" type="application/atom+xml">
+  
+
+  
+    
+<link rel="stylesheet" href="/css/main.css">
+
+  
+
+  
+    <link rel="shortcut icon" href="https://image-bed-1316467115.cos.ap-beijing.myqcloud.com/ruizhe.jpeg">
+  
+
+  
+
+  
+
+
+  
+    
+      <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css">
+    
+  
+</head>
+
+<body>
+  
+
+
+
+
+  <div class='l_body' id='start'>
+    <aside class='l_left' layout='wiki'>
+    
+
+  
+
+
+
+
+<div class="widgets"><widget class="widget-wrapper logo-wrap wiki"><div class="widget-body"><a style="filter: grayscale(100%)" class="wiki-home cap" href="/wiki/"><svg aria-hidden="true" viewBox="0 0 16 16" width="1rem" height="1rem" fill="currentColor"><path fill-rule="evenodd" d="M7.78 12.53a.75.75 0 01-1.06 0L2.47 8.28a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 1.06L4.81 7h7.44a.75.75 0 010 1.5H4.81l2.97 2.97a.75.75 0 010 1.06z"></path></svg>所有专栏</a><a class="title" href="/wiki/book_thinking/%E5%BA%8F%E8%A8%80/index.html"><div class="main" ff="title">思考，快与慢</div><div class="sub normal cap">诺贝尔奖级别的研究成果，快来看看吧～</div><div class="sub hover cap" style="opacity:0">了解思考的模式，做思考的主人。</div></a></div></widget>
+<widget class="widget-wrapper search"><div class="widget-body"><div class="search-wrapper" id="search"><form class="search-form"><input type="text" class="search-input" id="search-input" data-filter="/wiki/" placeholder="文档搜索"><svg t="1670596976048" class="icon search-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2676" width="200" height="200"><path d="M938.2 832.6L723.8 618.1c-2.5-2.5-5.3-4.4-7.9-6.4 36.2-55.6 57.3-121.8 57.3-193.1C773.3 222.8 614.6 64 418.7 64S64 222.8 64 418.6c0 195.9 158.8 354.6 354.6 354.6 71.3 0 137.5-21.2 193.2-57.4 2 2.7 3.9 5.4 6.3 7.8L832.5 938c14.6 14.6 33.7 21.9 52.8 21.9 19.1 0 38.2-7.3 52.8-21.8 29.2-29.1 29.2-76.4 0.1-105.5M418.7 661.3C284.9 661.3 176 552.4 176 418.6 176 284.9 284.9 176 418.7 176c133.8 0 242.6 108.9 242.6 242.7 0 133.7-108.9 242.6-242.6 242.6" p-id="2677"></path></svg></form><div id="search-result"></div><div class="search-no-result">没有找到内容！</div></div></div></widget>
+
+
+<widget class="widget-wrapper toc multi" id="data-toc"><div class="widget-header cap dis-select"><span class="name">序言</span></div><div class="widget-body fs14"><div class="doc-tree"><a class="doc-tree-link" href="/wiki/book_thinking/%E5%BA%8F%E8%A8%80/index.html#start"><span class="toc-text">序言</span></a></div></div><div class="widget-header cap dis-select"><span class="name">系统1，系统2</span></div><div class="widget-body fs14"><div class="doc-tree"><a class="doc-tree-link" href="/wiki/book_thinking/%E7%B3%BB%E7%BB%9F1%EF%BC%8C%E7%B3%BB%E7%BB%9F2/%E4%B8%80%E5%BC%A0%E6%84%A4%E6%80%92%E7%9A%84%E8%84%B8%E5%92%8C%E4%B8%80%E9%81%93%E4%B9%98%E6%B3%95%E9%A2%98/index.html"><span class="toc-text">一张愤怒的脸和一道乘法题</span></a></div><div class="doc-tree"><a class="doc-tree-link" href="/wiki/book_thinking/%E7%B3%BB%E7%BB%9F1%EF%BC%8C%E7%B3%BB%E7%BB%9F2/%E7%94%B5%E5%BD%B1%E7%9A%84%E4%B8%BB%E8%A7%92%E4%B8%8E%E9%85%8D%E8%A7%92/index.html"><span class="toc-text">电影的主角与配角</span></a></div><div class="doc-tree"><a class="doc-tree-link" href="/wiki/book_thinking/%E7%B3%BB%E7%BB%9F1%EF%BC%8C%E7%B3%BB%E7%BB%9F2/%E6%83%B0%E6%80%A7%E6%80%9D%E7%BB%B4%E4%B8%8E%E5%BB%B6%E8%BF%9F%E6%BB%A1%E8%B6%B3/index.html"><span class="toc-text">惰性思维与延迟满足</span></a></div><div class="doc-tree active"><a class="doc-tree-link active" href="/wiki/book_thinking/%E7%B3%BB%E7%BB%9F1%EF%BC%8C%E7%B3%BB%E7%BB%9F2/%E8%81%94%E6%83%B3%E7%9A%84%E7%A5%9E%E5%A5%87%E5%8A%9B%E9%87%8F/index.html"><span class="toc-text">联想的神奇力量</span></a><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%81%94%E6%83%B3%E7%9A%84%E5%AE%9A%E4%B9%89"><span class="toc-text">联想的定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8%E6%95%88%E5%BA%94"><span class="toc-text">启动效应</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8%E6%95%88%E5%BA%94%E5%AF%B9%E4%BD%A0%E5%BD%B1%E5%93%8D%E6%9C%89%E5%A4%9A%E5%A4%A7%EF%BC%9F"><span class="toc-text">启动效应对你影响有多大？</span></a></li></ol></div><div class="doc-tree"><a class="doc-tree-link" href="/wiki/book_thinking/%E7%B3%BB%E7%BB%9F1%EF%BC%8C%E7%B3%BB%E7%BB%9F2/%E4%BD%A0%E7%9A%84%E7%9B%B4%E8%A7%89%E5%8F%AF%E8%83%BD%E6%98%AF%E9%94%99%E8%A7%89/index.html"><span class="toc-text">你的直觉可能是错觉</span></a></div></div></widget>
+
+
+
+<widget class="widget-wrapper timeline"><div class="widget-header cap theme dis-select"><span class="name">近期动态</span></div><div class="widget-body fs14"><div class="tag-plugin timeline stellar-timeline-api" api="https://api.github.com/repos/Ruizhe0723/Ruizhe0723.github.io/issues?per_page=3"></div></div></widget>
+</div>
+
+
+    </aside>
+    <div class='l_main'>
+      
+
+      
+
+  
+  
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" id="home" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" id="menu" href="/wiki/">专栏</a><span class="sep"></span><a class="cap breadcrumb" id="proj" href="/wiki/book_thinking/%E5%BA%8F%E8%A8%80/index.html">思考，快与慢</a></div><div id="post-meta">更新于&nbsp;<time datetime="2023-01-24T12:56:54.303Z">2023-01-24</time></div></div>
+
+  <article class='md-text content wiki indent'>
+  <h1 class="article-title"><span>联想的神奇力量</span></h1>
+  <h2 id="联想的定义"><a href="#联想的定义" class="headerlink" title="联想的定义"></a>联想的定义</h2><p>当你受到刺激的时候，你的大脑会产生一系列的连贯反应。这些复杂的反应快速地呈现在你的脑海中，而且都是自主发生的，无须费力。你左右不了它，也不能让它停下来。这是系统1的一个运行过程。<strong>你受到这些刺激后出现的一切反应都是循着一个名为“联想激活”的过程发生的：事物在你的大脑中唤起的想法激发出许多其他的想法，而且这些联想的行为在你的大脑中迅速扩展开来。</strong></p>
+<p><strong>能引发记忆的词也会引发情感，引发面部表情变化和其他反应，比如常出现的紧张和回避倾向。面部表情和退缩行为强化了引起这两种反应的情感，这些情感反过来还会强化相应的概念。所有这些都是瞬间发生的，形成一种认知、情感和生理反应的自我强化模式，这种模式变化多样又能形成一个整体，被称为联想的连贯性。必须指出，连贯性是这种复杂的思维活动的重要特点，其中每个环节都是紧密相连、相互支持的。</strong></p>
+<p><strong>在一秒钟左右的时间里，你就能自主且无意识地完成一件了不起的事。你的系统1会试图弄清具体情况，还预估了可能会出现（从轻度到中等程度）的危险状况，帮你作好准备去面对这些极有可能会出现的事件，以便为你将来的应对创造条件。同时，系统1还会对过去情形的骇人程度进行评估，为当前的事件发展创造条件。这样你就可以透彻了解过去，从容面对未来了。</strong></p>
+<p>很久以来，人们一直都知道引起这些思维活动的机制是什么，这个机制就是联想。我们都能从自己的经历中了解到，有意识的思维活动中所有的观点都是井然有序的。在 1748年出版的《人类理解研究》 一书中，苏格兰哲学家休谟将联想的原则缩减为三个：<strong>相似性、时空相接以及因果关系。</strong>自休谟时代以后，我们对联想的定义发生了巨大变化，但他的三原则仍可作为定义所有联想的基础。</p>
+<p>什么是观点？它可能是具体的，也可能是抽象的，能通过很多方式表达：它可以是动词、名词、形容词或者是肢体语言。<strong>心理学家认为，观点是一张巨网上的节点，他们称其为联想记忆，这些节点和其他节点相联结。联结的类型多种多样：因果联系（病毒一感冒)、事物及其特性的联系（柠檬一绿色）、事物及其种类的联系（香蕉一水果）。</strong></p>
+<p>有一方面我们超越了休谟，那就是我们不再将思维活动视为一连串顺序出现的有意识的观点。<strong>联想记忆的工作原理是什么？当前的研究中有这样一种见解：一瞬间会发生很多事。思维活动唤起一个看法不仅会引发另一个看法，它还会激发出很多其他看法，而这些看法还会让我们想到另外一些看法。此外，只有几个被激发出来的看法是有意识的思维活动，多数联想思维都是无声的，隐藏在有意识的自我之后的。</strong>如果说我们对大脑的运转认识有限，我们当然很难接受这种说法，因为这种说法和我们的体验背道而驰，但事实就是如此：你觉得自己很了解自己，但其实你错了。</p>
+<h2 id="启动效应"><a href="#启动效应" class="headerlink" title="启动效应"></a>启动效应</h2><p><strong>在20世纪80年代，心理学家发现，看到一个词时，人的思维就会立刻产生变化，而且这种变化是可测量的，同时，很多相关词汇会被激发出来。我们将此现象称为启动效应。</strong></p>
+<p><strong>启动效应有多种表现形式。</strong>如果你的脑海中此时有“喝”这个概念（不论你是否注意到这一点），怡好此时有人低声跟你说了“汤”字或者在你前面远远的地方放上一碗汤，你肯定会比平时更快地意识到“汤”这个词。当然，你脑海中首先出现的不仅有汤这个概念，还有与食物相关的很多概念，包括猪肉、饿、脂肪、饮食和饼干等。如果最近用餐时几乎都是坐在摇晃的餐桌前吃饭，你的脑海中还会首先浮现摇晃这个概念。<strong>此外，启动联想的概念也能引起其他概念，尽管这种能力不算强。就像是池塘里的连漪一样，概念的激活也是由联想概念这张大网上的一小部分向外逐渐扩展开来的。这个涟漪效应现在是心理学研究中最令人兴奋的探索之一。</strong></p>
+<p><strong>关于记忆理解的另一项重大突破，是研究者发现启动效应不只限于概念和词汇。</strong> 当然，单纯通过有意识的经验，你是无法了解到这一点的，<strong>但你一定要接受这个另类的想法，即你的行为和感情有时会受制于你自己甚至都没有意识到的事件。</strong>在一项实验中，心理学家巴奇和他的同事们让纽约大学的数位学生从一个包含5个单词的词组中挑出4个单词来重组句子。其中一个小组的学生重组的句子中有一半都含有与老年人相关的词汇，例如佛罗里达州、健忘的、秀顶的、灰白的或者满脸皱纹的。当他们完成这项任务时，又被叫到大厅另一头的办公室里去参加另一个实验。从大厅的一头走到另一头是这次实验的关键所在。研究者悄悄地测量了他们所用的时间。正如巴奇预料的那样，那些以老年为主题造句子的年轻人比其他人走得要慢得多。这个实验后来成了经典案例。</p>
+<p>这个“佛罗里达效应” 包括信息启动的两个阶段。第一，尽管没有人提过 “老年” 这个词，但上述那组词令人想到了年迈，第二，这些想法催生了一种行为，即缓慢行走，这个行为与老年人相关。所有这一切的发生都是无意识的。这些学生在回答问题时，谁也没有提及自己注意到这些词有什么共同点，而且他们都坚持认为自己在第一个实验中看到的那些词并未对实验后的行为产生什么影响。“老年”这个概念并非他们的自觉意识，但其行为却因此有了改变。<strong>这个由概念影响行为的启动效应被称为概念运动效应，值得我们关注。</strong>尽管你自己肯定没有意识到这个效应，但读了上达文字之后，“老年”这个概念肯定对你也产生了一定的影响。假设需要站起来接杯水喝，你起身离开椅子的动作就会比平常稍稍慢上那么一点，<strong>除非你恰巧不喜欢“老年”这一概念。有研究家例表明，如果对这一概念反感，人的动作就会稍稍快那么一点。</strong>而与此同时，启动放应往往能产生连贯的反应，如果首先想到老年，你就会表现得像是上了年纪，而这种上了年纪的表现也会强化你关于“年老”的看法。</p>
+<p>相互联系在联想网络中十分常见。例如，觉得高兴时就会微笑，而微笑也会使你感到高兴。常见的动作也会不知不觉地影响到我们的想法和感觉。在一项实验中，那些点头（表示同意的动作）的受试者往往易于接受他们听到的信息，面那些摇头的受试者则易于否定那些信息。 要强调的是，受试者井没有意识到上述问题，他们只是习惯性地将否定或接受的态度与其常用的身体语言联系起来而已。由此可见，老话讲“不管你怎么想的，都得心平气和”，这真是条很好的建议，只有真正做到心平气和，你才可能有回报。</p>
+<h2 id="启动效应对你影响有多大？"><a href="#启动效应对你影响有多大？" class="headerlink" title="启动效应对你影响有多大？"></a>启动效应对你影响有多大？</h2><p><strong>我们原以为自己作出的判断和选择是有意识且自主的，但那些关于启动效应的研究所带来的发现却颠覆了我们此前的认识。</strong>例如，我们中的大多数人都认为投票选举是经过深思熟虑的行为，它反映了我们对政策的认可程度与评价，不会受到不相关的事的影响。比方说，我们投票不应受到投票地点的影响，但事实上这个因素却实实在在影响了投票结果。一项关于2000年亚利桑那州选区投票模式的研究表明，当投票站设在某个学校时，加大教育投人力度的议案的支持率就会比投票站设在附近其他地方的要高。<strong>我们现在已经知道启动效应会影响到我们生活的方方面面。</strong></p>
+<p><strong>让人联想到钱的事物往往令人不安。起初脑海中就有钱的概念的人比自己没有这方面联想时更独立。他们会持之以恒地解决一个非常难的问题，付出双倍的努力也在所不惜，实在迫不得已时才会向研究人员寻求帮助。这一做法清晰地表明其自力更生能力的提升。脑海中总有钱的概念的人更自私：他们更不愿花时间去帮助别人，也不愿意花时间去捡起掉在地上的铅笔。另外，实验证实，那些满脑子都是钱的受试者表现出更强烈的独处意愿。上述所有发现有一个共同主题，即钱这一概念会滋生个人主义：不愿和他人在一起，不愿依赖他人，也不愿接受他人的请求。</strong></p>
+<p>心理学家凯瑟琳•沃斯完成了这项意义重大的研究，她的发现表明我们所处的文化环境中有很多能让人想起钱的事物，这些事物以我们意识不到的方式影响着我们的行为和态度。有些文化常常提醒人们尊重他人，另外一些文化则常让人们想起上帝，还有一些国家的人们会对着伟大领袖的照片顶礼膜拜。在一个专制国家中，到处挂着领袖的肖像不仅能向你传达“老大哥在看着你”的感觉，还会使你逐渐丧失自主的思想和独立的行为能力。启动效应的研究证据显示，使人牢记“人终将一死”这一说法能让独裁的主张更得人心，因为在人们恐惧死亡的情况下，独裁的主张会让人心安。</p>
+<p>其他实验证实了弗洛伊德关于无意识关联中符号和比喻作用的见解。比方说，你可以看看下面这两个不完整的单词 W__H和S_P是什么。如果有人近些天想起了自己某个难以启齿的举动，这些人往往会把这两个不完整的词填成 WASH和SOAP，而很少会填成 WISH和 SOUP。此外，只是想到背后中伤某位同事就会使人更想去买香皂、消毒剂或清洁剂，而不是电池、果汁或者糖果。当人们感觉自己的心灵受到了玷污，往往也会引发他们清洗自己身体的想法。并且，人们清洗的身体部位往往是那些令他们深感罪恶的部位。一项实验要求受试者通过电话或者电子邮件对一位假想中的人“说谎”。在随后对不同产品的需求测试中，那些通过电话说谎的人更想要漱口水，而不是香皂；而那些通过电子邮件说谎的人更想要的则是香皂，而不是漱口水。</p>
+<p><strong>这些实验是否表明我们完全任由情境摆布，随时要听从它的指示呢？当然不是。启动思维的影响力虽强，但并不见得很大。</strong>在100位投票者当中，只有几位开始时并不确定要选谁，如果投票点设在学校里而不是在教堂里，他们对与学校相关的问题会就作出不一样的选择，但也不排除有那么几个人会作出相反的选择。</p>
+<p><strong>然而，问题的关键是要接受相关研究的结果，而不是对此心存怀疑。这些结果不是捏造出来的，也不是统计上的偶然现象。</strong>更重要的是，你必须承认这些结论对你自己来说也是正确的。如果你看到电脑屏保上有浮动的美钞，你帮陌生人捡起的铅笔数量可能比你没看到这些钱时少。<strong>你不相信这些结论适用于你，因为这些结论与你的主观体验不相符，但你的主观体验主要是由系统2决定的。启动效应来自系统1，而这个效应发生时，你根本就意识不到。</strong></p>
+
+  
+
+
+  </article>
+  
+<div class="related-wrap reveal" id="read-next"><section class="body"><div class="item" id="prev"><div class="note">回顾上一篇</div><a href="/wiki/book_thinking/%E7%B3%BB%E7%BB%9F1%EF%BC%8C%E7%B3%BB%E7%BB%9F2/%E6%83%B0%E6%80%A7%E6%80%9D%E7%BB%B4%E4%B8%8E%E5%BB%B6%E8%BF%9F%E6%BB%A1%E8%B6%B3/index.html">惰性思维与延迟满足</a></div><div class="item" id="next"><div class="note">接下来阅读</div><a href="/wiki/book_thinking/%E7%B3%BB%E7%BB%9F1%EF%BC%8C%E7%B3%BB%E7%BB%9F2/%E4%BD%A0%E7%9A%84%E7%9B%B4%E8%A7%89%E5%8F%AF%E8%83%BD%E6%98%AF%E9%94%99%E8%A7%89/index.html">你的直觉可能是错觉</a></div></section></div>
+
+  
+
+  <div class='related-wrap md-text reveal' id="comments">
+    <section class='header cmt-title cap theme'>
+      快来参与讨论吧
+    </section>
+    <section class='body cmt-body waline'>
+      
+
+<div id="waline_container" class="waline_thread"><svg class="loading" style="vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2709"><path d="M832 512c0-176-144-320-320-320V128c211.2 0 384 172.8 384 384h-64zM192 512c0 176 144 320 320 320v64C300.8 896 128 723.2 128 512h64z" p-id="2710"></path></svg></div>
+
+    </section>
+  </div>
+
+
+
+
+      
+<footer class="page-footer reveal fs12"><hr><div class="sitemap"><div class="sitemap-group"><span class="fs14">博客</span><a href="/">近期</a><a href="/categories/">分类</a><a href="/tags/">标签</a><a href="/archives/">归档</a></div><div class="sitemap-group"><span class="fs14">专栏</span><a href="/summary/">拾记|年度总结</a><a href="/wiki/method/">面向科研的学习方法</a></div><div class="sitemap-group"><span class="fs14">链接</span><a href="/friends/">朋友圈动态</a><a href="/links/">常用链接</a></div><div class="sitemap-group"><span class="fs14">更多</span><a href="/">关于本站</a><a href="/about/">留言板</a><a target="_blank" rel="noopener" href="https://github.com/Ruizhe0723">GitHub</a></div></div><div class="text"><p>There is only one true heroism in the world: to see the world as it is, and to love it.<br>世界上只有一种真正的英雄主义，那就是在认清生活的真相后依然热爱生活。</p>
+</div></footer>
+
+      <div class='float-panel mobile-only blur' style='display:none'>
+  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
+    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
+  </button>
+</div>
+
+    </div>
+  </div>
+  <div class='scripts'>
+    <script type="text/javascript">
+  const stellar = {
+    // 懒加载 css https://github.com/filamentgroup/loadCSS
+    loadCSS: (href, before, media, attributes) => {
+      var doc = window.document;
+      var ss = doc.createElement("link");
+      var ref;
+      if (before) {
+        ref = before;
+      } else {
+        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+        ref = refs[refs.length - 1];
+      }
+      var sheets = doc.styleSheets;
+      if (attributes) {
+        for (var attributeName in attributes) {
+          if (attributes.hasOwnProperty(attributeName)) {
+            ss.setAttribute(attributeName, attributes[attributeName]);
+          }
+        }
+      }
+      ss.rel = "stylesheet";
+      ss.href = href;
+      ss.media = "only x";
+      function ready(cb) {
+        if (doc.body) {
+          return cb();
+        }
+        setTimeout(function () {
+          ready(cb);
+        });
+      }
+      ready(function () {
+        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+      });
+      var onloadcssdefined = function (cb) {
+        var resolvedHref = ss.href;
+        var i = sheets.length;
+        while (i--) {
+          if (sheets[i].href === resolvedHref) {
+            return cb();
+          }
+        }
+        setTimeout(function () {
+          onloadcssdefined(cb);
+        });
+      };
+      function loadCB() {
+        if (ss.addEventListener) {
+          ss.removeEventListener("load", loadCB);
+        }
+        ss.media = media || "all";
+      }
+      if (ss.addEventListener) {
+        ss.addEventListener("load", loadCB);
+      }
+      ss.onloadcssdefined = onloadcssdefined;
+      onloadcssdefined(loadCB);
+      return ss;
+    },
+
+    // 从 butterfly 和 volantis 获得灵感
+    loadScript: (src, opt) => new Promise((resolve, reject) => {
+      var script = document.createElement('script');
+      script.src = src;
+      if (opt) {
+        for (let key of Object.keys(opt)) {
+          script[key] = opt[key]
+        }
+      } else {
+        // 默认异步，如果需要同步，第二个参数传入 {} 即可
+        script.async = true
+      }
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    }),
+
+    // https://github.com/jerryc127/hexo-theme-butterfly
+    jQuery: (fn) => {
+      if (typeof jQuery === 'undefined') {
+        stellar.loadScript(stellar.plugins.jQuery).then(fn)
+      } else {
+        fn()
+      }
+    }
+  };
+  stellar.version = '1.18.5';
+  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.18.5';
+  stellar.config = {
+    date_suffix: {
+      just: '刚刚',
+      min: '分钟前',
+      hour: '小时前',
+      day: '天前',
+      month: '个月前',
+    },
+  };
+
+  // required plugins (only load if needs)
+  stellar.plugins = {
+    jQuery: 'https://gcore.jsdelivr.net/npm/jquery@3.6.2/dist/jquery.min.js'
+  };
+
+  if ('local_search') {
+    stellar.search = {};
+    stellar.search.service = 'local_search';
+    if (stellar.search.service == 'local_search') {
+      let service_obj = Object.assign({}, {"field":"all","path":"/search.json","content":true,"sort":"-date"});
+      stellar.search[stellar.search.service] = service_obj;
+    }
   }
-  .l_body {
-    padding: 0;
+
+  // stellar js
+  stellar.plugins.stellar = Object.assign({"sites":"/js/plugins/sites.js","friends":"/js/plugins/friends.js","ghinfo":"/js/plugins/ghinfo.js","timeline":"/js/plugins/timeline.js","linkcard":"/js/plugins/linkcard.js","fcircle":"/js/plugins/fcircle.js","weibo":"/js/plugins/weibo.js"});
+
+  stellar.plugins.marked = Object.assign("https://cdn.bootcdn.net/ajax/libs/marked/4.0.18/marked.min.js");
+  // optional plugins
+  if ('true' == 'true') {
+    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://gcore.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js","transition":"fade"});
   }
-  .l_body .l_left {
-    position: fixed;
-    transform: translateX(-320px);
-    margin: 0;
-    left: 0;
-    background: var(--site-bg);
-    box-shadow: $boxshadow-card-float;
-    z-index: 9;
+  if ('true' == 'true') {
+    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper@8.4.5/swiper-bundle.min.css","js":"https://unpkg.com/swiper@8.4.5/swiper-bundle.min.js"});
   }
-  .l_body .l_main {
-    max-width: 100%;
+  if ('false' == 'true') {
+    stellar.plugins.scrollreveal = Object.assign({"enable":false,"js":"https://gcore.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"4px","duration":400,"interval":100,"scale":0.1});
   }
-  .l_body.mobile .l_left {
-    transition: transform 0.3s ease-out;
+  if ('true' == 'true') {
+    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://gcore.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://gcore.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
   }
-  .l_body.mobile.sidebar .l_left {
-    transform: translateX(0px);
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://gcore.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://gcore.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
-}
+  if ('false' == 'true') {
+    stellar.plugins.heti = Object.assign({"enable":false,"css":"https://unpkg.com/heti@0.9.2/umd/heti.min.css","js":"https://unpkg.com/heti@0.9.2/umd/heti-addon.min.js"});
+  }
+</script>
+
+<!-- required -->
+
+  
+<script src="/js/main.js" async></script>
+
+
+
+<!-- optional -->
+
+  <script>
+  function load_comment(){
+    if(!document.getElementById("waline_container"))return;
+    stellar.loadCSS('https://unpkg.com/@waline/client@v2/dist/waline.css');
+    stellar.loadScript('https://unpkg.com/@waline/client@v2/dist/waline.js', {defer:true}).then(function () {
+      const el = document.getElementById("waline_container");
+      var path = el.getAttribute('comment_id');
+      if (!path) {
+        path = decodeURI(window.location.pathname);
+      }
+      Waline.init(Object.assign({"js":"https://unpkg.com/@waline/client@v2/dist/waline.js","css":"https://unpkg.com/@waline/client@v2/dist/waline.css","serverURL":"https://api.ruizhe.tech","commentCount":true,"pageview":false,"locale":{"placeholder":"快来参与讨论吧！\n可匿名评论（即呢称、邮箱、网址都不填）\n若填写邮箱，可在被回复时收到邮件提醒\n若不方便在此留言，可发邮件至博主邮箱 1900011042@pku.edu.cn 私聊\n"},"reaction":true,"emoji":["https://gcore.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs"],"copyright":false}, {
+        el: '#waline_container',
+        path: path,
+      }));
+    });
+  }
+  window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+    load_comment();
+  });
+
+</script>
+
+
+
+
+<!-- inject -->
+
+
+  </div>
+<!--动态线条背景-->
+<script type="text/javascript"
+  color="220,220,220" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+</body>
+</html>
+
