@@ -40,10 +40,10 @@ https://ruizhe.tech/2023-01-01-summary_2023_01_01.html
 https://ruizhe.tech/2023-01-08-hello-world.html
 https://ruizhe.tech/tricks/mail.html
 https://ruizhe.tech/
-https://ruizhe.tech/tags/%E5%96%9C%E6%AC%A2/
-https://ruizhe.tech/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/
 https://ruizhe.tech/tags/%E5%8D%9A%E5%AE%A2/
 https://ruizhe.tech/tags/%E6%88%90%E9%95%BF/
+https://ruizhe.tech/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/
+https://ruizhe.tech/tags/%E5%96%9C%E6%AC%A2/
 https://ruizhe.tech/tags/%E6%80%BB%E7%BB%93/
 https://ruizhe.tech/tags/%E8%AE%A1%E5%88%92/
 https://ruizhe.tech/categories/%E9%9A%8F%E7%AC%94/
